@@ -52,7 +52,7 @@ script:
   - git clone https://github.com/meta-magic/api-test
   - ls -la
   - rm -rf api-test/api/v5.3/*
-  - cp -rf Amexio5API/dist/* api-test/api/v5.3/*
+  - cp -rf Amexio5API/dist/* api-test/api/v5.3/
   - cd api-test
   - git add .
   - git commit -m "date"
