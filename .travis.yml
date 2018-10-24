@@ -15,7 +15,7 @@ addons:
 
 env:
   global:
-  - GITHUB_REPO:"meta-magic/api-test"
+  - GITHUB_REPO: "meta-magic/api-test"
   - secure: "noym+IKRY3QZibfHHGcygqaOqHSb7TCJnUgi0gL8+YWlCD/4nu+fNIFzQ0Piz5TTKfNOIUtLhO9Dh7xpri9w/r4YTnOSKAhecqbMFJA5Gnr+QmvHGQbvU+S4mmZvwg9YV+Obzfs3fuQqbBNR2k710+HUIYCbRsL8RCtrcbW945Zzxwe3Fk1DsarnJsTjm7IgMUeFfRDkvokWSn5vqOlymD5Xtf0qvUdp7KZacqS9CHLiTDPvUCTKI3p+bzZWRFfAxaQLIFuTANAOtsTQcygJkYxMcPL6RA2Ds5R8P2h+EKBENpyOo4l/MbNSheCauWEhttfHieB/g0wZEDHlOMVJrEsU2BUVUC7Wzqfy9fqKfYZHX4hbuBf/AjfMepqtz4rFvBJM20x9YOhvFVbC65NJC/SIWDv+wYh3bcSDECBAzgMULQUwogPL9YzlL7JPpAQK8xbWdaI+nDV39E/wJfuHOAF9oCk1Qbtx2bpOHRWMDj4GAewW9uq/Fbc7jkv002IW+csSST9sQokb8wmTaoXYcQUWDkpatxshoxWmol0FwyOzT0TqOOEZLH/BwXUbpd/GeFObGgYznuSNSzmvNvoH+OZw77HjmdFfh4wO+hzKvwCGWXVEDa80YYWAmHnWG96Yq1yj5xBJngWhi1JozI25orT+MTcuih9x8LaHbiLkc/k="
  
 language: node_js
