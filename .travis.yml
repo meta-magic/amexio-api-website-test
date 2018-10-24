@@ -56,7 +56,7 @@ script:
   - cd api-test
   - git add .
   - git commit -m "date"
-  - git push --force --quiet "https://${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git"
+  - git push --force --quiet "https://deepali-arvind:${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git"
   
   
 after_success: 
