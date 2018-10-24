@@ -54,7 +54,7 @@ deploy:
   skip_cleanup: true
   on:
     repo: meta-magic/amexio-api-website-test
-    tags: true  
+    tags: commit  
     all_branches: true
 cache:
   yarn: true
