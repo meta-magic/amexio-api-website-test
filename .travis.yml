@@ -30,6 +30,7 @@ before_script:
   - sh -e /etc/init.d/xvfb start
   - npm install --global gulp --save
   - gem install sass
+  - composer install --dev --prefer-dist
   - git clone https://github.com/meta-magic/Amexio5API.git -b v5.2
   - git clone https://github.com/meta-magic/d3.amexio.github.io.git 
   - cd d3.amexio.github.io/
