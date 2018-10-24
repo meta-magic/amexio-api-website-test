@@ -48,6 +48,7 @@ script:
   - npm i  ../d3.amexio.github.io/amexio-chart-d3.tgz
   - ng set defaults.styleExt scss
   - ng build --prod 
+  - pwd
   - git clone https://github.com/meta-magic/amexio-api-website-test
   - rm -rf amexio-api-website-test/api/v5.3/*
   - cp -rf dist/* amexio-api-website-test/api/v5.3/*
