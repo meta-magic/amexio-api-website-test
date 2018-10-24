@@ -52,7 +52,7 @@ after_success:
 
 deploy:
   provider: pages
-  github_token: d2c5b350a9785cdb11de0dba696a70112717f6a3
+  github_token: $GITHUB_TOKEN
   file_glob: true
   file: dist/*
   skip_cleanup: true
