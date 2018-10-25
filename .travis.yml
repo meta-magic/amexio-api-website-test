@@ -52,7 +52,7 @@ script:
   - cp -rf Amexio5API/dist/* api/v5.3/
   - git add api
   - git commit -m "date"
-  - git push --force --quiet "https://deepali-arvind:${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git -b master"
+  - git push --force --quiet "https://deepali-arvind:${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git HEAD:master"
   
   
 after_success: 
