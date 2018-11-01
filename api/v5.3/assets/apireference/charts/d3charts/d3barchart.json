@@ -50,7 +50,7 @@
             "description": "Sets legend to D3 Bar chart",
             "version": "0.0.1 Onwards",
             "type": "boolean",
-            "default": "false"
+            "default": "true"
         },
         {
             "name": "http-url",

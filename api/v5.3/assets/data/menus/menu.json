@@ -698,6 +698,11 @@
                             "icon": "fa fa-pie-chart fa-fw",
                             "badge": "New",
                             "link": "amexio-d3-chart-donut"
+                        },{
+                            "text": "Histogram Chart",
+                            "icon": "fa fa-bar-chart fa-fw",
+                            "badge": "New",
+                            "link": "amexio-d3-chart-histogram"
                         },
                         {
                             "text": "Line Chart",
@@ -705,6 +710,12 @@
                             "badge": "New",
                             "link": "amexio-d3-chart-line"
                         },
+                        {
+                            "text": "Multi-Area Chart",
+                            "icon": "fa fa-area-chart fa-fw",
+                            "badge": "New",
+                            "link": "amexio-d3-chart-multiarea"
+                        }, 
                         {
                             "text": "MultiSeriesBar Chart",
                             "icon": "fa fa-bar-chart fa-fw",
@@ -718,7 +729,13 @@
                             "link": "amexio-d3-chart-pie"
                         },
                         {
-                            "text": "Stack Chart",
+                            "text": "Scatter Chart",
+                            "icon": "fa fa-dot-circle-o",
+                            "badge": "New",
+                            "link": "amexio-d3-chart-scatter"
+                        }, 
+                        {
+                            "text": "Stack Bar Chart",
                             "icon": "fa fa-bar-chart fa-fw",
                             "badge": "New",
                             "link": "amexio-d3-chart-bar-stack"
