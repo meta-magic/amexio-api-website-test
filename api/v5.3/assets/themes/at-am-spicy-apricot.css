@@ -3266,6 +3266,25 @@ input:checked + .toggle-slider:before {
   margin-right: 3px;
   color: whitesmoke; }
 
+/*****************************************************************************
+ Component Name : Grid Layout
+    Version : Amexio v5.3.2onwards
+****************************************************************************/
+/** Grid Layout- Visual CSS **/
+/** Grid Layout- Structure CSS **/
+@media (min-width: 720px) {
+  .amexio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px; } }
+@media (min-width: 820px) {
+  .amexio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px; } }
+.amexio-grid-container > amexio-grid-item {
+  padding: 5px; }
+
 /****************************************************************************
     Component Name : Enterprise Content
     Version : Amexio v4.0 onwards
@@ -4811,6 +4830,10 @@ header .billboard .content-button {
   background-color: rgba(255, 253, 208, 0.4);
   color: #603A63; }
 
+.sidenav .headernodeSeparator:hover {
+  background-color: rgba(255, 253, 208, 0.4);
+  color: #603A63; }
+
 .sidenav .defaultnode:hover {
   background-color: rgba(255, 253, 208, 0.4);
   color: #603A63; }
@@ -4888,6 +4911,16 @@ header .billboard .content-button {
   padding: 13px 0px 13px 17px;
   padding-left: 100%;
   margin-left: -100%; }
+
+.sidenav .headernodeSeparator {
+  cursor: pointer;
+  padding: 13px 0px 13px 17px;
+  padding-left: 100%;
+  margin-left: -100%;
+  border-top: 1px  solid #ced4da !important; }
+
+.sidenav .headernodeSeparator .node-icon {
+  padding-right: 20px; }
 
 .sidenav .defaultnode {
   cursor: pointer;
