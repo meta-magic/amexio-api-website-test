@@ -4494,7 +4494,8 @@ header .billboard .content-button {
   padding: 5px; }
 
 .topnavbarunit2 {
-  line-height: 50px; }
+  line-height: 50px;
+  flex-grow: 1; }
 
 .topnavbarunit2-mobile {
   width: 100%;
@@ -4708,6 +4709,9 @@ header .billboard .content-button {
   position: fixed;
   z-index: 3;
   left: 0; }
+
+.sidenav-submenu-details .tablink {
+  padding: 0px; }
 
 .sidenav-mobile-bar-right {
   top: 10px;
