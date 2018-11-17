@@ -26,7 +26,7 @@ THE SOFTWARE.
 MIT
 MIT
 
-amexio-chart-d3@0.0.7
+amexio-chart-d3@0.0.8
 Apache 2.0
 Apache 2.0
 
