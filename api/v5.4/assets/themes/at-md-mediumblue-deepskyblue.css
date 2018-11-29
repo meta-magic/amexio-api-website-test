@@ -638,11 +638,12 @@ button {
 
 /** buttongroup - Structure CSS **/
 .btn-group span {
-  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
-  
-   cursor: pointer; /* Pointer/hand icon */ }
+    /* border: $btnGrpBorderSize solid $btnGrpBorderColor;
+
+    cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
+  margin-right: 0px !important;
   cursor: pointer; }
 
 /* Clear floats (clearfix hack) */
