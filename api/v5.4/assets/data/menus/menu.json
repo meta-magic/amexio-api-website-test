@@ -731,18 +731,12 @@
                     "children": [{
                             "text": "Bar Chart",
                             "icon": "fa fa-bar-chart fa-fw",
-                            "children": [
-                                {
-                                    "text": "Bar chart-vertical",
-                                    "icon": "fa fa-bar-chart fa-fw",
-                                    "link": "amexio-d3-chart-bar"
-                                },
-                                {
-                                    "text": "Bar chart-Horizontal",
-                                    "icon": "fa fa-bar-chart fa-fw",
-                                    "link": "amexio-d3-chart-horizontal"
-                                }
-                            ]
+                            "link": "amexio-d3-chart-bar",
+                            "children": [{
+                                "text": "Bar chart-Horizontal",
+                                "icon": "fa fa-bar-chart fa-fw",
+                                "link": "amexio-d3-chart-horizontal"
+                            }]
                         },
                         {
                             "text": "Bubble Chart ",
