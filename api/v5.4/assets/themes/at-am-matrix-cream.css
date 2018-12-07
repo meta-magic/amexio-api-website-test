@@ -858,7 +858,7 @@ button {
 .datetimepicker {
   display: block;
   border: 2px solid #FFFDD0;
-  position: relative;
+  position: absolute;
   box-shadow: 0 1px 3px 0 #FFFDD0;
   z-index: 3;
   width: 290px; }
