@@ -137,6 +137,10 @@ element over the whole parent element
   bottom: 0;
   left: 0; }
 
+input:disabled {
+  opacity: 0.55;
+  cursor: not-allowed; }
+
 /*
 Spin animation for .loading-mask::after
 */
@@ -1213,7 +1217,7 @@ button {
 .datetimepicker {
   display: block;
   border: 2px solid #4CBB17;
-  position: absolute;
+  position: relative;
   box-shadow: 0 1px 3px 0 #4CBB17;
   z-index: 3;
   width: 290px; }
@@ -5764,6 +5768,7 @@ amexio-layout-columns amexio-layout-item {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  flex-grow: 1;
   padding-left: 16px;
   padding-right: 16px; }
 
