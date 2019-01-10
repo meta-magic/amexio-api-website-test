@@ -9,10 +9,10 @@
   ],
   "radiodata":[{
     "gender":"Male",
-    "genderId":"male1"
+    "genderId":"1"
   },{
     "gender":"Female",
-    "genderId":"female1"
+    "genderId":"2"
   }
   ]
 }
