@@ -1,0 +1,14 @@
+
+
+<!-- Tree with Expand and Collapse function on button Click -->
+
+<amexio-image [ngClass]="text" 
+              (click)="expandAlldata(id)">
+</amexio-image>
+                           
+<amexio-treeview 
+                    #treeID
+                [data-reader]="'item'" 
+                [data]="treeLocalExpandData" 
+                (nodeClick)="getNodeDataClick($event)">
+</amexio-treeview>
