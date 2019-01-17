@@ -25,6 +25,27 @@
       "default": "false"
     },
     {
+      "name": "border",
+      "description": "Provides the border for panel if true",
+      "version": "5.4 onwards",
+      "type": "boolean",
+      "default": "false"
+    },
+    {
+      "name": "content-align",
+      "description": "Provides the alignment(left, right, center) for content present in panel",
+      "version": "5.4 onwards",
+      "type": "string",
+      "default": "left"
+    },
+    {
+      "name": "collapsible",
+      "description": "Provides the collapse property, if true",
+      "version": "5.4 onwards",
+      "type": "boolean",
+      "default": "true"
+    },
+    {
       "name": "height",
       "description": "Height of panel must be in px ex.100, 250..",
       "version": "4.0 onwards",

@@ -35,7 +35,7 @@
             "name": "color",
             "description": "Sets color to D3 Bar chart",
             "version": "0.0.1 Onwards",
-            "type": "any[]",
+            "type": "any",
             "default": ""
         },
         {
@@ -50,7 +50,7 @@
             "description": "Sets legend to D3 Bar chart",
             "version": "0.0.1 Onwards",
             "type": "boolean",
-            "default": "false"
+            "default": "true"
         },
         {
             "name": "http-url",
@@ -93,6 +93,27 @@
             "version": "0.0.6 Onwards",
             "type": "any",
             "default": ""
+        },
+        {
+            "name": "horizontal-scale",
+            "description": "Sets Horizontal scaling ",
+            "version": "0.0.7 Onwards",
+            "type": "boolean",
+            "default": "true"
+        },
+        {
+            "name": "label-color",
+            "description": "Sets label color in D3 Bar Chart",
+            "version": "0.0.8 Onwards",
+            "type": "string",
+            "default": ""
+        },
+        {
+            "name": "label",
+            "description": "Sets label on D3 Bar Chart",
+            "version": "0.0.8 Onwards",
+            "type": "boolean",
+            "default": "false"
         }
     ],
     "legend": [

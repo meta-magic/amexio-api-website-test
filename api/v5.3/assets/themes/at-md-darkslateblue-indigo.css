@@ -129,6 +129,17 @@ body {
   padding-left: 5px;
   vertical-align: middle; }
 
+.vertical-table {
+  display: table;
+  padding: 5px; }
+
+.vertical-table .vertical-tablerow {
+  display: table-row; }
+
+.vertical-table .vertical-tablerow .vertical-tablecol {
+  display: table-cell;
+  vertical-align: middle; }
+
 .listbox .header .table .tablerow .tablecol {
   padding-right: 0px !important; }
 
@@ -192,8 +203,7 @@ textarea {
 
 textarea:disabled {
   opacity: 0.55;
-  cursor: not-allowed;
-  background-color: #d1c2db; }
+  cursor: not-allowed; }
 
 /*
 The loading throbber is a single spinning element with three
@@ -451,7 +461,8 @@ button {
   border: 1px solid #ced4da;
   padding: .5rem 1rem;
   border-radius: 2px;
-  transition: all .2s ease-in-out; }
+  transition: all .2s ease-in-out;
+  margin-right: 5px !important; }
 
 .btn-badge {
   padding: .25em .4em;
@@ -638,11 +649,12 @@ button {
 
 /** buttongroup - Structure CSS **/
 .btn-group span {
-  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
-  
-   cursor: pointer; /* Pointer/hand icon */ }
+    /* border: $btnGrpBorderSize solid $btnGrpBorderColor;
+
+    cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
+  margin-right: 0px !important;
   cursor: pointer; }
 
 /* Clear floats (clearfix hack) */
@@ -885,7 +897,7 @@ button {
 .datetimepicker {
   display: block;
   border: 1px solid #ced4da;
-  position: absolute;
+  position: relative;
   box-shadow: 0 1px 3px 0 #ced4da;
   z-index: 3;
   width: 290px; }
@@ -1143,20 +1155,16 @@ button {
 
 .drodown-caret-down {
   position: absolute;
-  top: 21px;
   right: 0;
+  bottom: 2px;
   display: block;
   width: 38px;
-  height: 38px;
   line-height: 38px;
   text-align: center; }
 
 .dropdown-right {
   right: 0;
   margin-right: 10px; }
-
-.drodown-caret-down {
-  top: 35px; }
 
 /****************************************************************************
     Component Name : Input
@@ -1229,7 +1237,7 @@ button {
 
 .input-control-feedback {
   position: absolute;
-  top: 30px;
+  bottom: 10px;
   right: 0;
   display: block;
   width: 38px;
@@ -1422,7 +1430,7 @@ textarea:required {
   border: 1px solid #ced4da; }
 
 .input-box-container {
-  display: block;
+  display: inline-block;
   position: relative;
   padding-left: 35px;
   padding-bottom: 10px;
@@ -1540,6 +1548,7 @@ textarea:required {
   min-width: 250px;
   text-align: start;
   border-radius: 2px;
+  font-size: 17px;
   z-index: 1;
   display: block; }
   .notification i {
@@ -1974,6 +1983,104 @@ input:checked + .toggle-slider:before {
 .small-bold {
   font-size: 18px;
   font-weight: bold; }
+
+.large-24 {
+  font-size: 24px;
+  line-height: 40px; }
+
+.large-24-bold {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px; }
+
+.large-44 {
+  font-size: 44px;
+  line-height: 45px; }
+
+.large-44-bold {
+  font-size: 44px;
+  font-weight: bold; }
+
+.large-50 {
+  font-size: 50px;
+  line-height: 55px; }
+
+.large-50-bold {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 55px; }
+
+.large-54 {
+  font-size: 54px;
+  line-height: 60px; }
+
+.large-54-bold {
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 58px; }
+
+.large-56 {
+  font-size: 56px;
+  line-height: 60px; }
+
+.large-56-bold {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 60px; }
+
+.large-60 {
+  font-size: 60px;
+  line-height: 56px; }
+
+.large-60-bold {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 56px; }
+
+.large-64 {
+  font-size: 64px;
+  line-height: 58px; }
+
+.large-64-bold {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 58px; }
+
+.large-68 {
+  font-size: 68px;
+  line-height: 60px; }
+
+.large-68-bold {
+  font-size: 68px;
+  font-weight: bold;
+  line-height: 60px; }
+
+.large-78 {
+  font-size: 78px;
+  line-height: 70px; }
+
+.large-78-bold {
+  font-size: 78px;
+  font-weight: bold;
+  line-height: 70px; }
+
+.large-9vw {
+  font-size: 9vw;
+  line-height: 1; }
+
+.large-9vw-bold {
+  font-size: 9vw;
+  font-weight: bold;
+  line-height: 1.5; }
+
+.large-4vw {
+  font-size: 4.2vw;
+  line-height: 1; }
+
+.large-4vw-bold {
+  font-size: 4.2vw;
+  font-weight: bold;
+  line-height: 1; }
 
 /****************************************************************************
     Component Name : Box
@@ -2472,6 +2579,18 @@ input:checked + .toggle-slider:before {
   height: 60px;
   line-height: 60px; }
 
+.floatingbutton-circle-large {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px; }
+
+.floatingbutton-circle-small {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px; }
+
 .floatingbutton-square {
   padding: .5rem 1rem; }
 
@@ -2542,24 +2661,8 @@ input:checked + .toggle-slider:before {
   padding: 10px;
   display: block; }
 
-.dropdownmenu-right {
+.menu-right {
   right: 10px; }
-
-.label-alignment-css {
-  float: right;
-  width: 80%;
-  text-align: left; }
-
-.dropdown-menu-icon-div {
-  width: 20%;
-  display: inline; }
-
-.dropdown-menu-a {
-  width: auto; }
-
-.icon-false-css {
-  width: 80%;
-  padding-left: 30px; }
 
 /*****************************************************************************
  Component Name : Toolbar
@@ -2580,7 +2683,6 @@ input:checked + .toggle-slider:before {
   cursor: pointer;
   flex-direction: row;
   justify-content: space-between;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   padding-top: 2px;
   position: relative;
   padding: 10px; }
@@ -3284,19 +3386,38 @@ input:checked + .toggle-slider:before {
 ****************************************************************************/
 /** Chips - Visual CSS **/
 /** Chips- Structure CSS **/
-.chip {
+.chips {
   display: inline-block;
-  padding: 0 25px;
-  height: 55px;
-  font-size: 20px;
-  line-height: 50px;
+  padding: 0 15px;
+  height: 35px;
+  font-size: 16px;
   border-radius: 25px;
   background-color: #f1f1f1;
-  margin: .2em; }
+  margin: 3px; }
 
-.chip:hover {
+.chips:hover {
   background: #e1b8ff; }
 
+.badge {
+  padding: .0em .4em;
+  font-size: small;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  /* white-space: nowrap; */
+  vertical-align: baseline;
+  border-radius: 30rem;
+  margin-left: 10px;
+  background-color: black;
+  margin-right: 3px;
+  color: whitesmoke; }
+
+/*****************************************************************************
+ Component Name : Grid Layout
+    Version : Amexio v5.3.2onwards
+****************************************************************************/
+/** Grid Layout- Visual CSS **/
+/** Grid Layout- Structure CSS **/
 /****************************************************************************
     Component Name : Enterprise Content
     Version : Amexio v4.0 onwards
@@ -3466,14 +3587,10 @@ header .billboard .content-button {
   text-transform: uppercase;
   transition: transform 0.5s; }
 
-.button-small i:hover {
-  border: solid 2px #fff;
-  transform: scale(1.1); }
-
 .close-button {
   cursor: pointer;
   padding-left: 98%;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
 
 /****************************************************************************
     Component Name : Enterprise Youtube
@@ -3482,7 +3599,7 @@ header .billboard .content-button {
 /** enterprise-youtube - Visual CSS **/
 .close-button {
   color: grey;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
 
 .close-button i:hover {
   color: red; }
@@ -3506,8 +3623,8 @@ header .billboard .content-button {
   font-size: 20px; }
 
 .tile__details {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .tile__details:after,
 .tile__details:before {
@@ -3515,8 +3632,8 @@ header .billboard .content-button {
 
 .tile__details_v {
   font-size: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .tile__details_v:after,
 .tile__details_v:before {
@@ -4214,7 +4331,7 @@ header .billboard .content-button {
   cursor: pointer; }
 
 .tree-node-label-hover {
-  width: 100%; }
+  width: 99%; }
 
 .tree-badge {
   margin-left: 10px;
@@ -4466,7 +4583,8 @@ header .billboard .content-button {
   padding: 5px; }
 
 .topnavbarunit2 {
-  line-height: 50px; }
+  line-height: 50px;
+  flex-grow: 1; }
 
 .topnavbarunit2-mobile {
   width: 100%;
@@ -4648,6 +4766,10 @@ header .billboard .content-button {
   background-color: #e1b8ff;
   color: #121212; }
 
+.sidenav .headernodeSeparator:hover {
+  background-color: #e1b8ff;
+  color: #121212; }
+
 .sidenav .defaultnode:hover {
   background-color: #e1b8ff;
   color: #121212; }
@@ -4676,6 +4798,9 @@ header .billboard .content-button {
   position: fixed;
   z-index: 3;
   left: 0; }
+
+.sidenav-submenu-details .tablink {
+  padding: 0px; }
 
 .sidenav-mobile-bar-right {
   top: 10px;
@@ -4725,6 +4850,16 @@ header .billboard .content-button {
   padding: 13px 0px 13px 17px;
   padding-left: 100%;
   margin-left: -100%; }
+
+.sidenav .headernodeSeparator {
+  cursor: pointer;
+  padding: 13px 0px 13px 17px;
+  padding-left: 100%;
+  margin-left: -100%;
+  border-top: 1px  solid #ced4da !important; }
+
+.sidenav .headernodeSeparator .node-icon {
+  padding-right: 20px; }
 
 .sidenav .defaultnode {
   cursor: pointer;
@@ -5019,7 +5154,7 @@ header .billboard .content-button {
   border-color: #ced4da;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 17px;
   transition: 0.4s; }
 
 .accordion:after {
@@ -5039,7 +5174,7 @@ header .billboard .content-button {
   border-color: #ffffff;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 17px;
   transition: 0.4s;
   box-shadow: none;
   border-top: 1px solid #ced4da; }
@@ -5179,13 +5314,16 @@ header .billboard .content-button {
   text-align: left; }
 
 .form-header {
-  display: flex;
   padding: 10px 24px;
   border-bottom: 1px solid #ced4da;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
   overflow: auto; }
+
+amexio-form-header {
+  display: flex;
+  justify-content: inherit; }
 
 .form-body {
   font-size: 14px;
@@ -5592,24 +5730,30 @@ fieldset {
 .verticalnavtab .defaultnode {
   cursor: pointer;
   color: #121212;
-  padding: 10px; }
+  padding: 10px;
+  width: 100%; }
 
 .verticalnavtab .defaultnode:hover {
-  font-weight: bold; }
+  font-weight: bold;
+  width: 100%; }
 
 .verticalnavtab .leftactivetab {
   font-weight: bold;
+  width: 100%;
   border-right: 3px solid #483d8b; }
 
 .verticalnavtab .rightactivetab {
   font-weight: bold;
+  width: 100%;
   border-left: 3px solid #483d8b; }
 
 .verticalnavtab-left {
-  font-weight: bold; }
+  font-weight: bold;
+  width: auto; }
 
 .verticalnavtab-right {
-  font-weight: bold; }
+  font-weight: bold;
+  width: auto; }
 
 verticalalign-tableft {
   vertical-align: top !important;
@@ -5683,6 +5827,9 @@ verticalalign-tableft {
   z-index: 3;
   position: absolute; }
 
+.righttable .righttablerow .righttablecol {
+  vertical-align: middle; }
+
 /****************************************************************************
     Component Name : Window
     Version : Amexio v4.0 onwards
@@ -5706,7 +5853,7 @@ verticalalign-tableft {
   color: #fbf5ff; }
 
 .modal-window-header .toolbar {
-  background: #290500;
+  background: #4b0082;
   font-size: 20px;
   color: #ffedeb; }
 
@@ -5814,8 +5961,7 @@ verticalalign-tableft {
 
 .modal-window-table .tablerow .tablecol {
   display: table-cell;
-  vertical-align: middle;
-  width: 100%; }
+  vertical-align: baseline; }
 
 .modal-window-footer-max {
   bottom: 0px;
@@ -6047,8 +6193,10 @@ verticalalign-tableft {
   transition: max-height 0.2s ease-out; }
 
 .panel-box {
-  border: 2px solid #4b0082;
   width: 100%; }
+
+.panel-box-border {
+  border: 2px solid #4b0082; }
 
 .panel-panel::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
@@ -6067,6 +6215,12 @@ verticalalign-tableft {
 .panel-icon {
   padding-left: 5px; }
 
+.panel-accordion amexio-toolbar-item amexio-panel-header * {
+  padding-right: 5px; }
+
+.panel-accordion amexio-toolbar-item {
+  margin: auto; }
+
 /****************************************************************************
     Component Name : Timeline
     Version : Amexio v5.2 onwards
@@ -6077,70 +6231,150 @@ verticalalign-tableft {
   box-shadow: 0 3px 0 #e1b8ff; }
 
 /** panel - Structure CSS **/
-.timeline {
-  overflow: hidden; }
-
-.timeline-event {
-  position: relative;
-  width: 100%;
+amexio-layout amexio-layout-item {
   padding: 5px; }
 
-.timeline-event-container {
-  position: relative; }
+.timeline * {
+  box-sizing: border-box; }
 
-.timeline-event-container::before {
-  content: '';
+/* Timeline */
+.timeline {
+  padding: 20px;
+  position: relative;
+  display: block; }
+
+.timeline:before {
+  top: 40px;
+  bottom: 0;
   position: absolute;
-  margin-left: 15px;
-  height: 100%;
+  content: " ";
   width: 3px;
-  background: #ced4da; }
+  background-color: #eeeeee; }
 
-.timeline-event-icon {
+.timelineleft:before {
+  /* right: 2%;
+  margin-left: -1.5px; */
+  /* left:94%; */
+  margin-left: 86%; }
+
+.timelineright:before {
+  left: 3%;
+  margin-left: 0%;
+  /* right:91%;
+  margin-right:-2%; */ }
+
+.timelinecenter:before {
+  left: 50%;
+  margin-left: -1.5px; }
+
+.timeline .timeline-item {
+  margin-bottom: 20px;
   position: relative;
-  margin-top: .5%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px #4b0082, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
-
-.timeline-event-contents {
-  display: flex; }
-
-.timeline-event-content {
-  position: relative;
-  padding: 1em;
   width: 100%;
-  margin: 0px 0px 10px 10px; }
+  display: block; }
 
-.timeline-event-content::before {
-  content: '';
+.timeline .timeline-item:before,
+.timeline .timeline-item:after {
+  content: "";
+  display: table; }
+
+.timeline .timeline-item:after {
+  clear: both; }
+
+.timeline .timeline-item .timeline-badge {
+  color: #fff;
+  width: 54px;
+  height: 54px;
+  line-height: 52px;
+  font-size: 22px;
+  text-align: center;
   position: absolute;
-  top: 16px;
-  right: 100%;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid #e1b8ff; }
+  background-color: #483d8b;
+  border: 3px solid #ffffff;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%; }
 
-.timeline-event-content2 {
+.timeline-badge-center {
+  left: 50%;
+  margin-left: -25px; }
+
+.timeline-badge-left {
+  left: 0%;
+  margin-left: -11px;
+  /* left:4%; */ }
+
+.timeline-badge-right {
+  /* right: -0.75%; */
+  left: 88%; }
+
+.timeline .timeline-item .timeline-panel {
   position: relative;
-  padding: 1em;
-  width: 100%;
-  margin: 0px 0px 10px 10px; }
+  /* width: 46%; */
+  padding: 10px; }
 
-.timeline-event-icon .fa {
-  display: -webkit-box;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  display: block;
-  width: 24px t;
-  left: 60% !important;
-  margin-left: 10px;
-  margin-top: -12px;
-  margin-top: 30%;
-  padding-top: 3%; }
+.timeline .timeline-item .timeline-panel-center {
+  width: 45%; }
 
+.timeline .timeline-item .timeline-panel-left {
+  width: 84%; }
+
+.timeline .timeline-item .timeline-panel-right {
+  width: 92%; }
+
+.timeline .timeline-item .timeline-panel-border {
+  border: 1px solid #483d8b;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  content: " "; }
+
+.timeline .timeline-item .timeline-panel-border1 {
+  border: 1px solid #777;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175); }
+
+.timeline .timeline-item .timeline-panel-float-left {
+  float: left; }
+
+.timeline-panel-float-left:before {
+  position: absolute;
+  right: -16px;
+  display: inline-block;
+  border-top: 16px solid transparent;
+  border-left: 16px solid #483d8b;
+  border-right: 0 solid #483d8b;
+  border-bottom: 16px solid transparent;
+  content: " "; }
+
+.timeline .timeline-item .timeline-panel-float-right {
+  float: right; }
+
+.timeline-panel-float-right:before {
+  left: -16px;
+  transform: rotate(180deg);
+  position: absolute;
+  display: inline-block;
+  border-top: 16px solid transparent;
+  border-left: 16px solid #483d8b;
+  border-right: 0 solid #483d8b;
+  border-bottom: 16px solid transparent;
+  content: " "; }
+
+@media (max-width: 767px) {
+  .timeline-badge-left {
+    margin-left: -32px; }
+
+  .timeline .timeline-item .timeline-panel-right {
+    width: 84%; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .timeline-badge-left {
+    margin-left: -38px; }
+
+  .timeline .timeline-item .timeline-panel-right {
+    width: 94%; } }
 /****************************************************************************
     Component Name : Border Layout
     Version : Amexio v4.0 onwards
@@ -6168,7 +6402,7 @@ verticalalign-tableft {
   grid-template-areas: 'north north north north north north' 'east center center center center west' 'south south south south south south';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-N-E-C-W-S aside {
   border: 0px solid none; }
@@ -6179,7 +6413,7 @@ verticalalign-tableft {
   grid-template-areas: 'north north north north north north' 'east center center center center center' 'south south south south south south';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-N-E-C-S aside {
   border: 0px solid none; }
@@ -6190,7 +6424,7 @@ verticalalign-tableft {
   grid-template-areas: 'north north north north north north' 'center center center center center west' 'south south south south south south';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-N-C-W-S aside {
   border: 0px solid none; }
@@ -6201,7 +6435,7 @@ verticalalign-tableft {
   grid-template-areas: 'east center center center center west' 'south south south south south south';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-E-C-W-S aside {
   border: 0px solid none; }
@@ -6212,7 +6446,7 @@ verticalalign-tableft {
   grid-template-areas: 'north north north north north north' 'center center center center center center' 'south south south south south south';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-N-C-S aside {
   border: 0px solid none; }
@@ -6223,7 +6457,7 @@ verticalalign-tableft {
   grid-template-areas: 'east center center center center center' 'south south south south south south';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-E-C-S aside {
   border: 0px solid none; }
@@ -6234,7 +6468,7 @@ verticalalign-tableft {
   grid-template-areas: 'center center center center center west' 'south south south south south south';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-C-W-S aside {
   border: 0px solid none; }
@@ -6245,7 +6479,7 @@ verticalalign-tableft {
   grid-template-areas: 'north north north north north north' 'center center center center center center';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-N-C aside {
   border: 0px solid none; }
@@ -6256,7 +6490,7 @@ verticalalign-tableft {
   grid-template-areas: 'center center center center center center' 'south south south south south south';
   grid-gap: 2px;
   padding: 2px;
-  grid-template-columns: auto; }
+  grid-template-columns: repeat(6, 1fr); }
 
 .borderlayout-container-C-S aside {
   border: 0px solid none; }
@@ -6335,17 +6569,25 @@ verticalalign-tableft {
   flex: 0 0 79.1666635%;
   max-width: 79.1666635%; }
 
+/****************************************************************************
+    Component Name : Layout
+    Version : Amexio v5.4 onwards
+*****************************************************************************/
+/** rowcol - Structure CSS **/
+amexio-layout-columns amexio-layout-item {
+  padding: 5px; }
+
 /** Initialze Animation variables ------------ */
 /****************************************************************************
                 Animation CSS for Checkbox 
 *****************************************************************************/
 @keyframes checkboxripple {
   0% {
-    box-shadow: 0px 0px 0px 1px transparent; }
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0); }
   50% {
     box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1); }
   100% {
-    box-shadow: 0px 0px 0px 15px transparent; } }
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0); } }
 /* Show the input-box-container-label when checked */
 .input-box-container input:checked ~ .input-box-checkbox-label:after {
   animation: checkboxripple .3s ease-in; }
@@ -6355,11 +6597,11 @@ verticalalign-tableft {
 *****************************************************************************/
 @keyframes radioripple {
   0% {
-    box-shadow: 0px 0px 0px 1px transparent; }
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0); }
   50% {
     box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1); }
   100% {
-    box-shadow: 0px 0px 0px 15px transparent; } }
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0); } }
 /* Show the input-box-container-label when checked */
 .input-box-container input:checked ~ .input-box-radiobox-label:after {
   animation: radioripple 0.3s linear forwards; }
