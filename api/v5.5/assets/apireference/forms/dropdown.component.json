@@ -19,10 +19,10 @@
         },
         {
             "name": "allow-blank",
-            "description": "Sets if field is required",
+            "description": "Sets if field is required (true or false)",
             "version": "4.0 onwards",
-            "type": "string",
-            "default": "none"
+            "type": "boolan",
+            "default": "false"
         },
         {
             "name": "data",
@@ -119,7 +119,7 @@
             "name": "enable-popover",
             "description": "Set enable / disable popover.",
             "version": "4.0 onwards",
-            "type": "string",
+            "type": "boolean",
             "default": "none"
         }
     ],

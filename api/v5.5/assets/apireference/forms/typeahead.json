@@ -19,10 +19,10 @@
     },
     {
       "name": "allow-blank",
-      "description": "Sets if field is required",
+      "description": "Sets if field is required (true or false)",
       "version": "4.0 onwards",
-      "type": "string",
-      "default": ""
+      "type": "boolean",
+      "default": "false"
     },
     {
       "name": "data",
@@ -55,6 +55,13 @@
     {
       "name": "display-field",
       "description": "Sets key inside response data to display.",
+      "version": "4.0 onwards",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "value-field",
+      "description": "Name of key inside response data.use to send to backend",
       "version": "4.0 onwards",
       "type": "string",
       "default": ""
@@ -112,7 +119,7 @@
       "name": "enable-popover",
       "description": "Set enable / disable popover.",
       "version": "4.0 onwards",
-      "type": "string",
+      "type": "boolean",
       "default": ""
     },
     {

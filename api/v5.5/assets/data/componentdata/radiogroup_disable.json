@@ -3,8 +3,10 @@
         "gender": "Male",
         "genderId": "male",
         "disabled": true
+
     }, {
         "gender": "Female",
         "genderId": "female"
+
     }]
 }
