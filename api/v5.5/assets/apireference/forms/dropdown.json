@@ -4,7 +4,6 @@
   "selector": "<amexio-dropdown>",
   "properties": [
     {
-      "deprecated":false,
       "name": "place-holder",
       "description": "Show place-holder inside dropdown component",
       "version": "4.0 onwards",
@@ -12,7 +11,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "field-label",
       "description": "The label of this field",
       "version": "4.0 onwards",
@@ -20,15 +18,13 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "allow-blank",
-      "description": "Sets if field is required (true or false)",
+      "description": "Sets if field is required",
       "version": "4.0 onwards",
-      "type": "(true or false)",
+      "type": "string",
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "data",
       "description": "Local data for dropdown.",
       "version": "4.0 onwards",
@@ -36,7 +32,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "data-reader",
       "description": "Key in JSON datasource for records",
       "version": "4.0 onwards",
@@ -44,7 +39,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "http-method",
       "description": "Type of HTTP call, POST,GET.",
       "version": "4.0 onwards",
@@ -52,7 +46,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "http-url",
       "description": "REST url for fetching datasource.",
       "version": "4.0 onwards",
@@ -60,7 +53,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "display-field",
       "description": "Name of key inside response data to display on ui.",
       "version": "4.0 onwards",
@@ -68,7 +60,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "value-field",
       "description": "Name of key inside response data.use to send to backend",
       "version": "4.0 onwards",
@@ -76,7 +67,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "search",
       "description": "true for search box enable",
       "version": "4.0 onwards",
@@ -84,23 +74,6 @@
       "default": "false"
     },
     {
-      "deprecated":false,
-      "name": "enable-sort",
-      "description": "true for  enable sorting",
-      "version": "5.5.1 onwards",
-      "type": "boolean",
-      "default": "false"
-    },
-    {
-      "deprecated":false,
-      "name": "sort",
-      "description": "define type of sort asc/desc",
-      "version": "5.5.1 onwards",
-      "type": "string",
-      "default": ""
-    },
-    {
-      "deprecated":false,
       "name": "multi-select",
       "description": "true for select multiple options",
       "version": "4.0 onwards",
@@ -108,7 +81,6 @@
       "default": "false"
     },
     {
-      "deprecated":true,
       "name": "error-msg",
       "description": "Sets the error message",
       "version": "4.0 onwards",
@@ -116,7 +88,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "font-style",
       "description": "Set font-style to field",
       "version": "4.0 onwards",
@@ -124,7 +95,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "font-family",
       "description": "Set font-family to field",
       "version": "4.0 onwards",
@@ -132,7 +102,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "font-size",
       "description": "Set font-size to field",
       "version": "4.0 onwards",
@@ -140,7 +109,6 @@
       "default": ""
     },
     {
-      "deprecated":false,
       "name": "has-label",
       "description": "flag to set label",
       "version": "4.0 onwards",
@@ -148,7 +116,6 @@
       "default": "false"
     },
     {
-      "deprecated":false,
       "name": "enable-popover",
       "description": "Set enable / disable popover.",
       "version": "4.0 onwards",

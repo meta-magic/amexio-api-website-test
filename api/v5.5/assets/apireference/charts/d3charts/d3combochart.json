@@ -33,6 +33,13 @@
             "default": ""
         },
         {
+            "name": "color",
+            "description": "Sets color to D3 Combo chart",
+            "version": "0.0.6 Onwards",
+            "type": "any",
+            "default": ""
+        },
+        {
             "name": "legend",
             "description": "Sets legend to D3 Combo chart",
             "version": "0.0.6 Onwards",
@@ -84,30 +91,16 @@
         },
         {
             "name": "line-color",
-            "description": "Sets label in D3 chart",
+            "description": "Sets line color in D3 chart",
             "version": "0.0.6 Onwards",
             "type": "string",
             "default": "black"
         },
         {
-            "name": "label",
-            "description": "Sets label in D3 chart",
-            "version": "0.1.0 Onwards",
-            "type": "boolean",
-            "default": "false"
-        },
-        {
             "name": "line-data-index",
             "description": "Sets data to plot line chart",
             "version": "0.0.6 Onwards",
-            "type": "any[]",
-            "default": ""
-        },
-        {
-            "name": "bar-data-index",
-            "description": "Sets data to plot bar chart",
-            "version": "0.1.0 Onwards",
-            "type": "any[]",
+            "type": "string",
             "default": ""
         },
         {

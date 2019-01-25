@@ -14,8 +14,7 @@
         <amexio-label size="small">
             My Drive
         </amexio-label>
-        <amexio-image aria-hidden="true" [icon-class]="'fa fa-info-circle'"> </amexio-image>
-
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
     </amexio-datagrid-header>
     <amexio-data-table-column [data-index]="'countryName'" [data-type]="'string'" [hidden]="false" [text]="'Name'"
         (selectedRowData)="getSelectedData($event)">

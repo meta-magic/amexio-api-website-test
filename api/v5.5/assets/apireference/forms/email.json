@@ -26,17 +26,17 @@
       },
       {
         "name": "allow-blank",
-        "description": "Sets if field is required (true or false)",
+        "description": "Sets if field is required",
         "version": "4.0 onwards",
-        "type": "boolean",
-        "default": "false"
+        "type": "string",
+        "default": "none"
       },
       {
         "name": "error-msg",
         "description": "Sets the error message",
         "version": "4.0 onwards",
-        "type": "string",
-        "default": "string"
+        "type": "none",
+        "default": "none"
       },
       {
         "name": "disabled",
@@ -84,7 +84,7 @@
         "name": "enable-popover",
         "description": "Set enable / disable popover.",
         "version": "4.0 onwards",
-        "type": "boolean",
+        "type": "string",
         "default": ""
       }
     ],

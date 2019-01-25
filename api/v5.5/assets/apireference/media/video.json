@@ -17,14 +17,7 @@
       "version": "4.0 onwards",
       "type": "any",
       "default": ""
-    },
-    {
-      "name": "extension",
-      "description": "extension of the video player .",
-      "version": "4.0 onwards",
-      "type": "any",
-      "default": ""
     }
   ],
   "events": []
-} 
+}

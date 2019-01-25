@@ -11,18 +11,11 @@
       "default": "left"
     },
     {
-      "name": "footer-align",
-      "description": "right,center,left..",
-      "version": "4.0 onwards",
-      "type": "string",
-      "default": "left"
-    },
-    {
       "name": "header",
       "description": "User can enable header of card by setting this flag to true..",
       "version": "4.0 onwards",
-      "type": "boolean",
-      "default": "false"
+      "type": "string",
+      "default": "left"
     },
     {
       "name": "footer",
@@ -30,6 +23,13 @@
       "version": "4.0 onwards",
       "type": "boolean",
       "default": "false"
+    },
+    {
+      "name": "footer-align",
+      "description": "right,center,left..",
+      "version": "4.0 onwards",
+      "type": "string",
+      "default": "left"
     },
     {
       "name": "show",
@@ -40,7 +40,7 @@
     },
     {
       "name": "height",
-      "description": "User can set the height to body in percentage.",
+      "description": "User can set the height to body..",
       "version": "4.0 onwards",
       "type": "any",
       "default": ""

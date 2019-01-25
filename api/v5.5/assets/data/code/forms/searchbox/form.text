@@ -158,6 +158,7 @@
     let to1 = this.to;
     let frm1 = this.from;
     if (sub1 == "" && frm1 == "" && to1 == "") {
+      debugger;
       this.bindData = this.searchdata;
     }
     else {

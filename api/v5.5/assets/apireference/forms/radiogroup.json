@@ -21,7 +21,7 @@
       "name": "horizontal",
       "description": "Set true for horizontal checkbox",
       "version": "4.0 onwards",
-      "type": "boolean",
+      "type": "string",
       "default": ""
     },
     {
@@ -33,10 +33,10 @@
     },
     {
       "name": "allow-blank",
-      "description": "Sets if field is required (true or false)",
+      "description": "Sets if field is required",
       "version": "4.0 onwards",
-      "type": "boolean",
-      "default": "false"
+      "type": "string",
+      "default": ""
     },
     {
       "name": "default-value",
@@ -84,7 +84,7 @@
       "name": "data",
       "description": "Local data for radio group.",
       "version": "4.0 onwards",
-      "type": "any[]",
+      "type": "any",
       "default": ""
     },
     {
