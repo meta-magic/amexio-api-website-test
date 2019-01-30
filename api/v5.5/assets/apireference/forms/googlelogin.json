@@ -11,10 +11,23 @@
         },
         {
             "name": "type",
-            "description": "type attribute  have multiple option like google,linkedin support",
+            "description": "type attribute  have multiple option like google,linkedin,facebook support",
             "version": "5.5.3 onwards",
             "type": "string",
             "default": "none"
+        }, {
+            "name": "label",
+            "description": "set the label",
+            "version": "5.5.4 onwards",
+            "type": "string",
+            "default": "none"
+        },
+        {
+            "name": "style-type",
+            "description": "set the style type like circle,square",
+            "version": "5.5.4 onwards",
+            "type": "string",
+            "default": "square"
         }
     ],
     "events": [{
