@@ -1,8 +1,0 @@
-export class GoogleLoginDemo {
-
-  constructor(){
-  }
-  onLoginClick(event:any){
-    console.log(event);
-  }
-}

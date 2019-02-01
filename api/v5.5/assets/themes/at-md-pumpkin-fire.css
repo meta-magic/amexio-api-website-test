@@ -365,6 +365,14 @@ image using the content attribute.
   background-color: #ffffff;
   color: #000000; }
 
+.fa-2x {
+  font-size: 2em !important;
+  margin-top: 24% !important; }
+
+.fa-3x {
+  font-size: 3em !important;
+  margin-top: 12% !important; }
+
 /** Initialze Component variables ------------ */
 /****************************************************************************
     Component Name : Button
@@ -446,6 +454,24 @@ image using the content attribute.
 .button-transparent {
   background: #ffffff;
   color: #121212; }
+
+.button-transparent:hover:enabled {
+  background-color: #ced4da; }
+
+.button-transparent::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: #ced4da;
+  opacity: 0;
+  border-radius: 100%;
+  -webkit-transform: scale(1, 1) translate(-50%);
+  transform: scale(1, 1) translate(-50%);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%; }
 
 /** button - Structure CSS **/
 button {
@@ -2563,6 +2589,9 @@ input:checked + .toggle-slider:before {
 
 .floatingbutton-relative {
   position: relative; }
+
+.floatingbutton-absolute {
+  position: absolute; }
 
 .floatingbutton-fixed {
   position: fixed; }
