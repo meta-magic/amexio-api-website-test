@@ -1,0 +1,1007 @@
+{
+    "data": [{
+            "text": "Home",
+            "link": "getting-started",
+            "icon": "fa fa-home fa-fw"
+        },
+        {
+            "text": "Amexio Colors",
+            "link": "amexio-colors",
+            "icon": "fa fa-snowflake-o fa-fw"
+        },
+        {
+            "text": "Amexio D3 Charts",
+            "link": "d3-charts",
+            "icon": "fa fa-openid fa-fw"
+        },
+      {
+            "text": "Layouts",
+            "badge": "1",
+            "icon": "fa fa-desktop fa-fw",
+            "children": [{
+                    "text": "Accordion",
+                    "icon": "fa fa-bars fa-fw",
+                    "link": "layout/accordion-demo",
+                    "badge": "U"
+                },
+                {
+                    "text": "Border Layout",
+                    "icon": "fa fa-id-card-o fa-fw",
+                    "link": "layout/border-demo"
+                },
+                {
+                    "text": "Box",
+                    "link": "layout/box-demo",
+                    "icon": "fa fa-square fa-fw"
+                },
+                {
+                    "text": "Column",
+                    "link": "layout/column-demo",
+                    "icon": "fa fa-columns fa-fw"
+                },
+                {
+                    "text": "Card",
+                    "icon": "fa fa-id-card-o fa-fw",
+                    "children": [{
+                            "text": "Form",
+                            "link": "layout/card-form-demo",
+                            "icon": "fa fa-leaf fa-fw"
+                        },
+                        {
+                            "text": "Image",
+                            "link": "layout/card-image-demo",
+                            "icon": "fa fa-leaf fa-fw"
+                        }
+                    ]
+                },
+                {
+                    "text": "Column Vertical",
+                    "icon": "fa fa-pause fa-fw",
+                    "link": "layout/vertical-layout"
+                },
+                {
+                    "text": "Column Horizontal",
+                    "icon": "fa fa-align-justify fa-fw",
+                    "link": "layout/horizontal-layout"
+                },
+                {
+                    "text": "Grid Layout",
+                    "icon": "fa fa-th fa-fw",
+                    "children": [{
+                            "text": "Grid Layout Basic",
+                            "icon": "fa fa-indent fa-fw",
+                            "link": "layout/gridlayout-demo"
+                        },
+                        {
+                            "text": "gridlayout-Ex1",
+                            "icon": "fa fa-indent fa-fw",
+                            "link": "layout/gridlayout-demo-exp1"
+                        },
+                        {
+                            "text": "gridlayout-Ex2",
+                            "icon": "fa fa-indent fa-fw",
+                            "link": "layout/gridlayout-demo-exp2"
+                        },
+                        {
+                            "text": "gridlayout-Ex3",
+                            "icon": "fa fa-indent fa-fw",
+                            "link": "layout/gridlayout-demo-exp3"
+                        }
+                    ]
+                },
+                {
+                    "text": "Row",
+                    "link": "layout/row-demo",
+                    "icon": "fa fa-bars fa-fw"
+                }
+            ]
+        },
+        {
+            "text": "Panels",
+            "icon": "fa fa-bars fa-fw",
+            "badge": "6",
+            "children": [{
+                    "text": "Carousel",
+                    "icon": "fa fa-indent fa-fw",
+                    "link": "panes/carousel-demo"
+                },
+                {
+                    "text": "Dialogue",
+                    "icon": "fa fa-window-maximize fa-fw",
+                    "link": "panes/dialogue-demo",
+                    "badge": "U"
+
+                },
+
+                {
+                    "text": "Fieldset",
+                    "icon": "fa fa-id-card-o fa-fw",
+                    "link": "panes/fieldset-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Panel",
+                    "icon": "fa fa-bars fa-fw",
+                    "link": "panes/panel-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Steps",
+                    "icon": "fa fa-step-forward fa-fw",
+                    "badge": "U",
+                    "children": [{
+                            "text": "Step Box",
+                            "link": "panes/step-box-demo",
+                            "icon": "fa fa-leaf fa-fw"
+                        },
+                        {
+                            "text": "Step Box Icon",
+                            "link": "panes/stepbox-icon-demo",
+                            "icon": "fa fa-leaf fa-fw"
+                        }
+                    ]
+                },
+                {
+                    "text": "Tab",
+                    "icon": "fa fa-folder fa-fw",
+                    "badge": "1",
+                    "children": [{
+                            "text": "Horizontal",
+                            "icon": "fa fa-indent fa-fw",
+                            "children": [{
+                                    "text": "Basic",
+                                    "link": "panes/basic-tab-demo",
+                                    "icon": "fa fa-leaf fa-fw"
+                                },
+                                {
+                                    "text": "Closable",
+                                    "link": "panes/closable-tab-demo",
+                                    "icon": "fa fa-leaf fa-fw"
+                                },
+                                {
+                                    "text": "Tab with Icon",
+                                    "link": "panes/icon-tab-demo",
+                                    "icon": "fa fa-leaf fa-fw"
+                                },
+                                {
+                                    "text": "Scrollable",
+                                    "link": "panes/scrollable-tab-demo",
+                                    "icon": "fa fa-leaf fa-fw"
+                                },
+                                {
+                                    "text": "Enhanced",
+                                    "link": "panes/enhanced-tab-demo",
+                                    "icon": "fa fa-leaf fa-fw"
+                                },
+                                {
+                                    "text": "With Context Menu",
+                                    "icon": "fa fa-leaf fa-fw",
+                                    "link": "contextual-menu-tab"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Vertical",
+                            "icon": "fa fa-outdent fa-fw",
+                            "badge": "1",
+                            "children": [{
+                                    "text": "Left Aligned",
+                                    "link": "panes/vertical-tab-demo",
+                                    "icon": "fa fa-leaf fa-fw"
+                                },
+                                {
+                                    "text": "Right Aligned",
+                                    "link": "panes/verticalright-tab-demo",
+                                    "icon": "fa fa-leaf fa-fw"
+                                },
+                                {
+                                    "text": "Enhanced",
+                                    "link": "panes/enhanced-vertical-tab-demo",
+                                    "icon": "fa fa-leaf fa-fw",
+                                    "badge": "New"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text": "Window",
+                    "icon": "fa fa-window-maximize fa-fw",
+                    "link": "panes/window-demo",
+                    "badge": "U"
+
+                }
+            ]
+        },
+        {
+            "text": "Forms",
+            "icon": "fa fa-clone fa-fw",
+            "children": [
+                {
+                    "text": "Form (HTML)",
+                    "icon": "fa fa-window-maximize fa-fw",
+                    "badge": "2",
+                    "children": [{
+                            "text": "Template Driven",
+                            "icon": "fa fa-window-maximize fa-fw",
+                            "link": "forms/html-form-demo",
+                            "badge": "New"
+                        },
+                        {
+                            "text": "Reactive Forms",
+                            "icon": "fa fa-window-maximize fa-fw",
+                            "link": "forms/html-reactive-form",
+                            "badge": "New"
+                        }
+                    ]
+                },
+                {
+                    "text": "Amexio Forms",
+                    "icon": "fa fa-window-maximize fa-fw",
+                    "children": [{
+                            "text": "Template Driven",
+                            "icon": "fa fa-window-maximize fa-fw",
+                            "link": "forms/form-demo",
+                            "badge": "New"
+                        },
+                        {
+                            "text": "Reactive Forms",
+                            "icon": "fa fa-window-maximize fa-fw",
+                            "link": "forms/reactive-form",
+                            "badge": "New"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Form Inputs",
+            "icon": "fa fa-clone fa-fw",
+            "badge": "19",
+            "children": [{
+                    "text": "Checkbox",
+                    "icon": "fa fa-check-square-o fa-fw",
+                    "link": "forms-Input/singlecheckbox-demo",
+                    "badge": "U"
+                },
+                {
+                    "text": "Checkbox Group",
+                    "icon": "fa fa-list fa-fw",
+                    "link": "forms-Input/checkboxgroup-demo",
+                    "badge": "U"
+                },
+                {
+                    "text": "Chips",
+                    "icon": "fa fa-chevron-circle-down fa-fw",
+                    "link": "forms-Input/chips-demo"
+                },
+                {
+                    "text": "Credit-Card",
+                    "icon": "fa fa-credit-card fa-fw",
+                    "link": "forms-Input/credit-card-demo"
+                },
+                {
+                    "text": "Date & Time Picker",
+                    "icon": "fa fa-calendar fa-fw",
+                    "link": "forms-Input/date-picker-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "DropDown",
+                    "badge": "U",
+                    "icon": "fa fa-caret-square-o-down fa-fw",
+                    "children": [{
+                            "text": "Basic",
+                            "icon": "fa fa-caret-down fa-fw",
+                            "link": "forms-Input/dropdownbasic"
+                        },
+                        {
+                            "text": "Filter Search",
+                            "icon": "fa fa-arrow-circle-down fa-fw",
+                            "link": "forms-Input/dropdownfilter"
+                        },
+                        {
+                            "text": "Multi Select",
+                            "icon": "fa fa-chevron-circle-down fa-fw",
+                            "link": "forms-Input/dropdownmulti"
+                        },
+                        {
+                            "text": "Template",
+                            "icon": "fa fa-chevron-circle-down fa-fw",
+                            "link": "forms-Input/dropdowntemplate"
+                        }
+                    ]
+                },
+                {
+                    "text": "Email Field",
+                    "icon": "fa fa-envelope-o fa-fw",
+                    "link": "forms-Input/email-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "File Upload",
+                    "icon": "fa fa-file fa-fw",
+                    "link": "forms-Input/fileupload-demo",
+                    "badge": "U"
+                },
+                {
+                    "text": "Facebook Login",
+                    "icon": "fa fa-facebook fa-fw",
+                    "link": "forms-Input/facebook-login-demo",
+                    "badge": "New"
+                },
+                {
+                    "text": "Google Login",
+                    "icon": "fa fa-google fa-fw",
+                    "link": "forms-Input/google-login-demo",
+                    "badge": "New"
+                },
+                {
+                    "text": "LinkedIn Login",
+                    "icon": "fa fa-linkedin-square fa-fw",
+                    "link": "forms-Input/linkedin-login-demo",
+                    "badge": "New"
+                },
+                {
+                    "text": "Label",
+                    "icon": "fa fa-terminal fa-fw",
+                    "link": "forms-Input/label-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Number Field",
+                    "icon": "fa fa-phone fa-fw",
+                    "link": "forms-Input/number-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Password Field",
+                    "icon": "fa fa-text-width fa-fw",
+                    "link": "forms-Input/password-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Radio Group",
+                    "icon": "fa fa-stop-circle-o fa-fw",
+                    "link": "forms-Input/radiogroup-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Rating",
+                    "icon": "fa fa-star-half-empty fa-fw",
+                    "link": "forms-Input/rating-demo"
+                },
+                {
+                    "text": "Recaptcha",
+                    "icon": "fa fa-recycle fa-fw",
+                    "link": "forms-Input/recaptcha-demo"
+                },
+                {
+                    "text": "Search Box",
+                    "icon": "fa fa-search fa-fw",
+                    "link": "forms-Input/searchbox-demo"
+                },
+                {
+                    "text": "Slider",
+                    "icon": "fa fa-sliders fa-fw",
+                    "link": "forms-Input/slider-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Type Ahead",
+                    "icon": "fa fa-search-minus fa-fw",
+                    "link": "forms-Input/typeahead-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Tag Field",
+                    "icon": "fa fa-tags fa-fw",
+                    "link": "forms-Input/taginput-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Text Field",
+                    "link": "forms-Input/textinput",
+                    "badge": "U",
+                    "icon": "fa fa-file-text-o fa-fw"
+                },
+                {
+                    "text": "TextArea Field",
+                    "icon": "fa fa-text-width fa-fw",
+                    "link": "forms-Input/textarea-demo",
+                    "badge": "U"
+
+                },
+                {
+                    "text": "Toggle",
+                    "icon": "fa fa-toggle-on fa-fw",
+                    "link": "forms-Input/toggle-demo",
+                    "badge": "U"
+
+                }
+            ]
+        },
+        {
+            "text": "Form Actions",
+            "badge": "4",
+            "icon": "fa fa-keyboard-o fa-fw",
+            "children": [{
+                    "text": "Buttons",
+                    "badge": "4",
+                    "icon": "fa fa-keyboard-o fa-fw",
+                    "children": [{
+                            "text": "Button",
+                            "icon": "fa fa-building-o fa-fw",
+                            "link": "forms-Action/button-demo",
+                            "badge": "U"
+                        },
+                        {
+                            "text": "Button Group",
+                            "icon": "fa fa-newspaper-o fa-fw",
+                            "link": "forms-Action/buttongroup-demo",
+                            "badge": "U"
+
+                        },
+                        {
+                            "text": "Button Dropdown",
+                            "icon": "fa fa-building fa-fw",
+                            "link": "forms-Action/buttondropdown-demo",
+                            "badge": "U"
+
+                        },
+                        {
+                            "text": "Floating Button",
+                            "icon": "fa fa-circle-o fa-fw",
+                            "link": "forms-Action/floatingbutton-demo",
+                            "badge": "U"
+                        },
+                        {
+                            "text": "Floating Group",
+                            "icon": "fa fa-circle-o fa-fw",
+                            "link": "forms-Action/floatinggroupbutton-demo"
+                        }
+                    ]
+                },
+                {
+                    "text": "Notification",
+                    "icon": "fa fa-comments fa-fw",
+                    "link": "forms-Action/notification-demo"
+                },
+                {
+                    "text": "Paginator",
+                    "icon": "fa fa-arrows-h fa-fw",
+                    "link": "forms-Action/paginator-demo"
+                },
+                {
+                    "text": "Progress Bar",
+                    "icon": "fa fa-circle-o-notch fa-fw",
+                    "link": "forms-Action/progressbar-demo"
+                }
+            ]
+        },
+        {
+            "text": "Data",
+            "badge": "1",
+            "icon": "fa fa-database fa-fw",
+
+            "children": [{
+                    "text": "Data Loading Indicator",
+                    "icon": "fa fa-spinner fa-fw",
+                    "badge": "U",
+                    "link": "data/amexio-spinner-demo"
+                },
+                {
+                    "text": "Item Selector",
+                    "icon": "fa fa-exchange fa-fw",
+                    "link": "data/itemselector-demo"
+                },
+                {
+                    "text": "Grid",
+                    "icon": "fa fa-database fa-fw",
+                    "children": [{
+                            "text": "Simple",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/simplegrid-demo"
+                        },
+                        {
+                            "text": "Column Sizing",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/custom-col-grid-demo"
+                        },
+                        {
+                            "text": "Template",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/template-grid-demo"
+                        },
+                        {
+                            "text": "Filter",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/filter-grid-demo"
+                        },
+                        {
+                            "text": "Filter-Global",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/global-filter-grid-demo"
+                        },
+                        {
+                            "text": "Group By",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/groupby-grid-demo"
+                        },
+                        {
+                            "text": "Header Template",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/header-template-demo"
+                        },
+                        {
+                            "text": "Grid with scroll",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/scroll-grid-demo"
+                        },
+                        {
+                            "text": "Grid with Toolbar",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/gridwithtoolbar-demo"
+                        },
+                        {
+                            "text": "Grid with Context menu",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/grid-context-menu-demo"
+                        },
+                        {
+                            "text": "Tree Data Grid",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/tree-data-grid-demo"
+                        },
+                        {
+                            "text": "Tree Data Template",
+                            "icon": "fa fa-database fa-fw",
+                            "link": "data/tree-data-template-demo"
+                        }
+                    ]
+                },
+                {
+                    "text": "Tree",
+                    "icon": "fa fa-tree fa-fw",
+                    "children": [{
+                            "text": "Simple",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/simple-tree-demo"
+                        },
+                        {
+                            "text": "Collapse",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/collapsetree-demo"
+                        },
+                        {
+                            "text": "With Template",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/template-tree-demo"
+                        },
+                        {
+                            "text": "Filter",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/filter-tree-demo"
+                        },
+                        {
+                            "text": "With Checkbox",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/checkbox-tree-demo"
+                        },
+                        {
+                            "text": "With Drag Drop",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/dragdrop-tree-demo"
+                        },
+                        {
+                            "text": "With Badge",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/badge-tree-demo"
+                        },
+                        {
+                            "text": "With Context Menu",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/context-menu-tree-demo"
+                        },
+                        {
+                            "text": "Horizontal",
+                            "icon": "fa fa-tree fa-fw",
+                            "link": "data/horizontal-tree-demo"
+                        }
+                    ]
+                },
+                {
+                    "text": "Timeline",
+                    "icon": "fa fa-history",
+                    "link": "data/timeline-demo"
+                },
+                {
+                    "text": "ListBox",
+                    "icon": "fa fa-list fa-fw",
+                    "link": "data/listbox-demo"
+                }
+            ]
+        },
+        {
+            "text": "Drag and Drop",
+            "icon": "fa fa-arrows-alt",
+            "children": [{
+                    "text": "Within Tree",
+                    "icon": "fa fa-tree fa-fw",
+                    "link": "dragdrop/within-tree-demo"
+                },
+                {
+                    "text": "Across Tree",
+                    "icon": "fa fa-tree fa-fw",
+                    "link": "dragdrop/across-tree-demo"
+                },
+                {
+                    "text": "Tree to Panel",
+                    "icon": "fa fa-tree fa-fw",
+                    "link": "dragdrop/tree-to-panel-demo"
+                },
+                {
+                    "text": "Within Item Selector",
+                    "icon": "fa fa-exchange fa-fw",
+                    "link": "dragdrop/itemselectordragdrop-demo"
+                }
+            ]
+        },
+        {
+            "text": "Contextual Menus",
+            "icon": "fa fa-bars",
+            "children": [{
+                    "text": "Card",
+                    "icon": "fa fa-id-card-o fa-fw",
+                    "link": "contextualmenu/contextmenu-card-form-demo"
+                },
+                {
+                    "text": "Grid",
+                    "link": "contextualmenu/contextual-menu-grid-demo",
+                    "icon": "fa fa-database fa-fw"
+                },
+                {
+                    "text": "List Box",
+                    "icon": "fa fa-list fa-fw",
+                    "link": "contextualmenu/contextual-menu-listbox-demo"
+                },
+                {
+                    "text": "Panel",
+                    "icon": "fa fa-bars fa-fw",
+                    "link": "contextualmenu/contextmenu-panel-demo"
+                },
+                {
+                    "text": "Tab",
+                    "icon": "fa fa-folder fa-fw",
+                    "link": "contextualmenu/contextual-menu-tab-demo"
+                },
+                {
+                    "text": "Tree",
+                    "icon": "fa fa-tree fa-fw",
+                    "link": "contextualmenu/contextual-menu-tree-demo"
+                },
+                {
+                    "text": "Window",
+                    "icon": "fa fa-window-maximize fa-fw",
+                    "link": "contextualmenu/contextmenu-window-demo"
+                }
+            ]
+        },
+        {
+            "text": "App Navigation",
+            "icon": "fa fa-bars fa-fw",
+            "children": [{
+                    "text": "Breadcrumb",
+                    "icon": "fa fa-arrow-right fa-fw",
+                    "link": "navigation/breadcrumb-demo"
+                },
+                {
+                    "text": "Dockbar",
+                    "icon": "fa fa-th-large fa-fw",
+                    "link": "navigation/dockbar-demo"
+                },
+                {
+                    "text": "Dropdown Menu",
+                    "icon": "fa fa-chevron-circle-down fa-fw",
+                    "link": "navigation/dropdownmenu-demo"
+                },
+                {
+                    "text": "Menu Bar",
+                    "icon": "fa fa-bars fa-fw",
+                    "link": "navigation/menubar-demo"
+                },
+                {
+                    "text": "Nav Bar",
+                    "icon": "fa fa-bars fa-fw",
+                    "link": "navigation/navbar-demo"
+                },
+                {
+                    "text": "Side Nav Bar",
+                    "icon": "fa fa-bars fa-fw",
+                    "link": "navigation/sidenav-demo"
+                },
+                {
+                    "text": " Side Panel",
+                    "icon": "fa fa-bars fa-fw",
+                    "link": "navigation/sidenav-page-demo"
+                },
+                {
+                    "text": "Tool Bar",
+                    "icon": "fa fa-bars fa-fw",
+                    "link": "navigation/toolbar-demo"
+                }
+            ]
+        },
+        {
+            "text": "Media",
+            "icon": "fa fa-keyboard-o fa-fw",
+            "children": [{
+                    "text": "Image",
+                    "icon": "fa fa-picture-o fa-fw",
+                    "link": "media-demo/image"
+                },
+                {
+                    "text": "Video Player",
+                    "icon": "fa fa-video-camera fa-fw",
+                    "link": "media-demo/video"
+                }
+            ]
+        },
+        {
+            "text": "Drillable Charts",
+            "icon": "fa fa-bar-chart fa-fw",
+            "children": [{
+                    "text": "Single Target",
+                    "icon": "fa fa-bar-chart fa-fw",
+                    "link": "drillableD3Chart/drillable-with-single-target-demo"
+                },
+                {
+                    "text": "Multiple Targets",
+                    "icon": "fa fa-bar-chart fa-fw",
+                    "link": "drillableD3Chart/drillable-with-multiple-target-demo"
+                }
+            ]
+        },
+        {
+            "text": "Charts",
+            "icon": "fa fa-keyboard-o fa-fw",
+            "badge": "6",
+            "children": [{
+                    "text": "D3 Charts",
+                    "icon": "fa fa-openid fa-fw",
+                    "badge": "6",
+                    "children": [{
+                            "text": "Bar Chart",
+                            "icon": "fa fa-bar-chart fa-fw",
+                            "children": [{
+                                    "text": "Bar chart-vertical",
+                                    "icon": "fa fa-bar-chart fa-fw",
+                                    "link": "D3chart/amexio-d3-chart-bar"
+                                },
+                                {
+                                    "text": "Bar chart-Horizontal",
+                                    "icon": "fa fa-bar-chart fa-fw",
+                                    "link": "D3chart/amexio-d3-chart-horizontal"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Bubble Chart ",
+                            "icon": "fa fa-dot-circle-o fa-fw",
+                            "link": "D3chart/amexio-d3-chart-bubble",
+                            "badge": "U"
+                        },
+                        {
+                            "text": "Combo Chart",
+                            "badge": "U",
+                            "icon": "fa fa-area-chart fa-fw",
+                            "link": "D3chart/amexio-d3-chart-combo"
+                        },
+                        {
+                            "text": "Donut Chart",
+                            "badge": "U",
+                            "icon": "fa fa-pie-chart fa-fw",
+                            "link": "D3chart/amexio-d3-chart-donut"
+                        },
+                        {
+                            "text": "Histogram Chart",
+                            "icon": "fa fa-bar-chart fa-fw",
+                            "link": "D3chart/amexio-d3-chart-histogram"
+                        },
+                        {
+                            "text": "Line Chart",
+                            "icon": "fa fa-line-chart fa-fw",
+                            "link": "D3chart/amexio-d3-chart-line"
+                        },
+                        {
+                            "text": "Multi-Area Chart",
+                            "icon": "fa fa-area-chart fa-fw",
+                            "link": "D3chart/amexio-d3-chart-multiarea"
+                        },
+                        {
+                            "text": "MultiSeriesBar Chart",
+                            "icon": "fa fa-bar-chart fa-fw",
+                            "link": "D3chart/amexio-d3-chart-multiseries"
+                        },
+                        {
+                            "text": "Pie Chart",
+                            "icon": "fa fa-pie-chart fa-fw",
+                            "badge": "U",
+                            "link": "D3chart/amexio-d3-chart-pie"
+                        },
+                        {
+                            "text": "Scatter Chart",
+                            "icon": "fa fa-dot-circle-o fa-fw",
+                            "badge": "U",
+                            "link": "D3chart/amexio-d3-chart-scatter"
+                        },
+                        {
+                            "text": "Timeline Chart",
+                            "icon": "fa fa-bar-chart fa-fw",
+                            "badge": "New",
+                            "link": "D3chart/amexio-d3-chart-timeline"
+                        },
+                        {
+                            "text": "Stack Bar Chart",
+                            "icon": "fa fa-bar-chart fa-fw",
+                            "link": "D3chart/amexio-d3-chart-bar-stack"
+                        },
+                        {
+                            "text": "Waterfall Chart",
+                            "icon": "fa fa-line-chart fa-fw",
+                            "link": "D3chart/amexio-d3-chart-waterfall"
+                        }
+                    ]
+                },
+                {
+                    "text": "Google Charts",
+                    "icon": "fa fa-google fa-fw",
+                    "children": [{
+                            "text": "Area Chart",
+                            "icon": "fa fa-area-chart fa-fw",
+                            "link": "google-chart/area-chart-demo"
+                        },
+                        {
+                            "text": "Bar Chart",
+                            "icon": "fa fa-bar-chart fa-fw",
+                            "link": "google-chart/bar-chart-demo"
+                        },
+                        {
+                            "text": "Bubble Chart",
+                            "icon": "fa fa-circle fa-fw",
+                            "link": "google-chart/bubble-chart-demo"
+                        },
+                        {
+                            "text": "Candlestick Chart",
+                            "icon": "fa fa-stack-exchange fa-fw",
+                            "link": "google-chart/candlestick-chart-demo"
+                        },
+                        {
+                            "text": "Candlestick Waterfall",
+                            "icon": "fa fa-tint fa-fw",
+                            "link": "google-chart/candlestickwaterfall-chart-demo"
+                        },
+                        {
+                            "text": "Column Chart",
+                            "icon": "fa fa-columns fa-fw",
+                            "link": "google-chart/column-chart-demo"
+                        },
+                        {
+                            "text": "Combo Chart",
+                            "icon": "fa fa-area-chart fa-fw",
+                            "link": "google-chart/combo-chart-demo"
+                        },
+                        {
+                            "text": "Donut Chart",
+                            "icon": "fa fa-pie-chart fa-fw",
+                            "link": "google-chart/donut-chart-demo"
+                        },
+                        {
+                            "text": "Gantt Chart",
+                            "icon": "fa fa-calendar fa-fw",
+                            "link": "google-chart/gantt-chart-demo"
+                        },
+                        {
+                            "text": "Histogram Chart",
+                            "icon": "fa fa-bars fa-fw",
+                            "link": "google-chart/histogram-chart-demo"
+                        },
+                        {
+                            "text": "Line Chart",
+                            "icon": "fa fa-line-chart fa-fw",
+                            "link": "google-chart/line-chart-demo"
+                        },
+                        {
+                            "text": "Pie Chart",
+                            "icon": "fa fa-pie-chart fa-fw",
+                            "link": "google-chart/pie-chart-demo"
+                        },
+                        {
+                            "text": "Scatter Chart",
+                            "icon": "fa fa-dot-circle-o fa-fw",
+                            "link": "google-chart/scatter-chart-demo"
+                        },
+                        {
+                            "text": "Timeline Chart",
+                            "icon": "fa fa-calendar fa-fw",
+                            "link": "google-chart/timeline-chart-demo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Dashboard",
+            "icon": "fa fa-dashcube fa-fw",
+            "children": [{
+                    "text": "Gauge Chart",
+                    "icon": "fa fa-tachometer fa-fw",
+                    "link": "dashboard/gauge-dashboard-demo"
+                },
+                {
+                    "text": "Data Points",
+                    "icon": "fa fa-address-card-o fa-fw",
+                    "link": "dashboard/datapoint-demo"
+                }
+            ]
+        },
+        {
+            "text": "Maps",
+            "badge": "1",
+            "icon": "fa fa-globe fa-fw",
+            "children": [{
+                    "text": "Geo Chart",
+                    "icon": "fa fa-globe fa-fw",
+                    "link": "map/geo-chart-demo"
+                },
+                {
+                    "text": "Tree Map",
+                    "icon": "fa fa-trello fa-fw",
+                    "link": "map/tree-map-demo"
+                },
+                {
+                    "text": "Google Map",
+                    "icon": "fa fa-map-marker",
+                    "link": "map/googlemap-demo",
+                    "badge": "New"
+                }
+            ]
+        },
+        {
+            "text": "Enterprise",
+            "icon": "fa fa-medium",
+            "children": [{
+                    "text": "Media Content",
+                    "icon": "fa fa-id-card-o fa-fw",
+                    "link": "enterprise/ee-content-demo"
+                },
+                {
+                    "text": "YouTube Video Player",
+                    "icon": "fa fa-video-camera fa-fw",
+                    "link": "enterprise/ee-video-demo"
+                },
+                {
+                    "text": "Multi-item Carousel",
+                    "icon": "fa fa-calendar fa-fw",
+                    "link": "enterprise/multi-item-carousel-demo"
+                }, {
+                    "text": "Appointment",
+                    "icon": "fa fa-calendar fa-fw",
+                    "link": "enterprise/ee-appointment-demo",
+                    "badge": "New"
+                }
+            ]
+        }
+    ]
+}
