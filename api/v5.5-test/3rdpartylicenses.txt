@@ -234,7 +234,7 @@ Apache License
    See the License for the specific language governing permissions and
    limitations under the License.
 
-core-js@2.6.4
+core-js@2.6.5
 MIT
 Copyright (c) 2014-2019 Denis Pushkarev
 
@@ -574,6 +574,10 @@ MIT
 MIT
 
 @angular/platform-browser@6.1.10
+MIT
+MIT
+
+ngx-cookie-service@1.0.10
 MIT
 MIT
 
