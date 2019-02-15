@@ -481,6 +481,44 @@ image using the content attribute.
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%; }
 
+.font-with-label {
+  padding-left: 5px;
+  font-family: Roboto, Trebuchet MS, Arial, Helvetica, sans-serif; }
+
+.button-primary-disabled {
+  background-color: #dbc2c2;
+  border-color: #dbc2c2;
+  pointer-events: none;
+  color: #a36262;
+  cursor: not-allowed; }
+
+.button-success-disabled {
+  background-color: #a3d7a3;
+  border-color: #a3d7a3;
+  pointer-events: none;
+  cursor: not-allowed;
+  color: #a36262; }
+
+.button-danger-disabled {
+  background-color: #eba5a3;
+  border-color: #eba5a3;
+  pointer-events: none;
+  color: #a36262; }
+
+.button-warning-disabled {
+  background-color: #f8d9ac;
+  border-color: #f8d9ac;
+  color: #a36262;
+  pointer-events: none;
+  cursor: not-allowed; }
+
+.disabled {
+  background-color: lightgray;
+  border-color: lightgray;
+  color: #a36262;
+  pointer-events: none;
+  cursor: not-allowed; }
+
 /** button - Structure CSS **/
 button {
   display: inline-block;
@@ -1443,8 +1481,8 @@ textarea:required {
 
 .checkbox-disable {
   opacity: 0.55;
-  pointer-events: none;
-  background-color: #dbc2c2; }
+  cursor: not-allowed;
+  pointer-events: none; }
 
 /** checkbox - Structure CSS **/
 .input-box {
@@ -2574,12 +2612,12 @@ input:checked + .toggle-slider:before {
   color: #ffffff; }
 
 .floatingbutton-default-disabled {
-  background-color: #dbc2c2;
+  background-color: lightgray !important;
   color: #a36262; }
 
 .floatingbutton-theme-color-disabled {
-  background-color: #ff3a3a;
-  color: #ffffff; }
+  background-color: #dbc2c2;
+  color: #a36262; }
 
 .floatingbutton-green-disabled {
   background-color: #a3d7a3;
@@ -2593,9 +2631,12 @@ input:checked + .toggle-slider:before {
   background-color: #f8d9ac;
   color: #ffffff; }
 
+.floatingbutton-circle:focus {
+  outline: none; }
+
 /** floatingbutton - Structure CSS **/
 .floatingbutton {
-  z-index: 3;
+  z-index: 1;
   text-align: center;
   border-color: #ced4da;
   cursor: pointer;
@@ -2627,10 +2668,14 @@ input:checked + .toggle-slider:before {
   left: 50%; }
 
 .floatingbutton-circle {
-  border-radius: 50px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px; }
+  border-radius: 50%;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 5px 2px;
+  text-align: center;
+  width: 30px;
+  height: 30px; }
 
 .floatingbutton:hover {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2) !important;
@@ -3524,6 +3569,13 @@ input:checked + .toggle-slider:before {
   margin-right: 3px;
   color: whitesmoke; }
 
+.chiplabelicon {
+  cursor: pointer;
+  padding-left: 10px; }
+
+.chiplabel {
+  cursor: pointer; }
+
 /*****************************************************************************
  Component Name : Grid Layout
     Version : Amexio v5.3.2onwards
@@ -4199,7 +4251,6 @@ header .billboard .content-button {
   color: #1f0000; }
 
 .horizontaltreeview-node-label:hover {
-  border-color: #ff3838;
   color: #520000;
   background-color: #ffb8b8; }
 
@@ -4710,6 +4761,10 @@ header .billboard .content-button {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   z-index: 2; }
 
+.transparentNav {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6) !important;
+  background-color: transparent !important; }
+
 .topnav-mobile {
   flex-direction: column;
   padding: 0px; }
@@ -4896,7 +4951,7 @@ header .billboard .content-button {
 .sidenav-mobile-bar-right {
   color: #ffebeb; }
 
-.sidenav {
+.sidenav-color {
   background-color: #ffffff;
   color: #121212; }
 
@@ -4909,16 +4964,6 @@ header .billboard .content-button {
 .sidenav::-webkit-scrollbar-thumb {
   background-color: #d30000; }
 
-.sidenav-submenu-details::-webkit-scrollbar-track {
-  background-color: #dbc2c2; }
-
-.sidenav-submenu-details::-webkit-scrollbar {
-  width: 6px;
-  background-color: #dbc2c2; }
-
-.sidenav-submenu-details::-webkit-scrollbar-thumb {
-  background-color: #ff3a3a; }
-
 .left {
   background-color: #ffffff; }
 
@@ -4926,10 +4971,6 @@ header .billboard .content-button {
   background-color: #ffffff; }
 
 .sidenav .title {
-  background-color: #ffffff;
-  color: #121212; }
-
-.sidenav .headernode {
   background-color: #ffffff;
   color: #121212; }
 
@@ -5061,7 +5102,7 @@ header .billboard .content-button {
   max-height: 0; }
 
 .sidenav-submenu-expanded {
-  max-height: 1000px;
+  max-height: 10000px;
   overflow: auto; }
 
 .nav-badge {
@@ -5614,7 +5655,10 @@ fieldset {
   margin-top: 0px; }
 
 .stepwizard-row {
-  display: table-row; }
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between; }
 
 .stepwizard {
   display: table;
@@ -5634,6 +5678,7 @@ fieldset {
   z-index: 0; }
 
 .stepwizard-step {
+  width: 100%;
   display: table-cell;
   text-align: center;
   position: relative; }
@@ -6031,17 +6076,9 @@ fieldset {
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** window - Visual CSS **/
-.root-window {
+.amexio-root-window {
   background-color: #ffffff;
   /* Black w/ opacity */ }
-
-.modal-window-content {
-  background-color: #ffffff; }
-
-.modal-window-material {
-  background-color: white;
-  font-size: 20px;
-  color: black; }
 
 .modal-window-header {
   background: #d30000;
@@ -6053,16 +6090,16 @@ fieldset {
   font-size: 20px;
   color: #ffedeb; }
 
-.modal-window-middle {
+.amexio-root-window-content {
   font-size: 14px; }
 
-.modal-window-middle::-webkit-scrollbar-track {
+.amexio-root-window-content .window-middle::-webkit-scrollbar-track {
   background-color: #dbc2c2; }
 
-.modal-window-middle::-webkit-scrollbar {
+.amexio-root-window-content .window-middle::-webkit-scrollbar {
   background-color: #dbc2c2; }
 
-.modal-window-middle::-webkit-scrollbar-thumb {
+.amexio-root-window-content .window-middle::-webkit-scrollbar-thumb {
   background-color: #d30000; }
 
 .modal-window-footer {
@@ -6070,114 +6107,80 @@ fieldset {
   color: #050000; }
 
 /** window - Structure CSS **/
-.root-window {
-  flex-direction: column;
-  position: fixed;
-  /* Stay in place */
-  z-index: 3;
-  /* Sit on top */
-  width: 100%;
-  height: 100%; }
-
-.modal-window-lg {
-  flex-direction: column;
-  height: 100%; }
-
-.modal-window-content {
-  position: absolute;
-  margin: auto;
-  padding: 0px;
-  width: 80%;
-  border: 0px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
-
-.modal-window-content > * {
-  padding: 10px;
-  min-height: auto !important; }
-
-.modal-window-content-max {
-  width: 100%;
+/* WINDOW */
+.amexio-root-window {
+  background: rgba(128, 127, 127, 0.6);
   height: 100%;
-  top: 0% !important;
-  left: 0% !important; }
-
-.window-material-design-header {
+  width: 100%;
+  position: fixed;
+  z-index: 3;
   display: flex;
-  border-bottom: 1px solid #ced4da;
-  font-weight: 300;
-  font-size: 20px;
-  text-transform: capitalize; }
+  flex-direction: row;
+  justify-content: center;
+  top: 0;
+  left: 0; }
+
+.amexio-root-window-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 96%;
+  margin-top: 1%; }
+
+.amexio-root-window-content > * {
+  padding: 10px 16px; }
+
+.amexio-layout-columns-height {
+  height: unset; }
+
+@media only screen and (max-width: 600px) {
+  .amexio-root-window-content {
+    width: 100%; } }
+.window-middle {
+  line-height: 24px;
+  font-weight: 400;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: white;
+  max-height: 100%; }
 
 .modal-window-header {
   display: flex;
+  font-size: 20px;
   font-weight: 300;
   text-transform: capitalize; }
 
-.modal-window-middle {
-  line-height: 24px;
-  font-weight: 400;
-  padding-left: 16px;
-  padding-right: 16px;
-  height: 80%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  background-color: white; }
+.modal-window-footer {
+  display: flex; }
 
-.modal-window-middle::-webkit-scrollbar-track {
+.modal-window-material-footer {
+  background-color: white;
+  color: black; }
+
+.model-maximize {
+  width: 100%;
+  height: 100%;
+  top: 0; }
+
+.content-max-height .window-middle {
+  height: 100%; }
+
+.amexio-root-window-content .window-middle::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
 
-.modal-window-middle::-webkit-scrollbar {
-  width: 6px; }
+.amexio-root-window-content .window-middle::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; }
 
-.window-material-design-footer {
-  display: flex;
-  border-top: 1px solid #eceeef;
-  padding-right: 16px;
-  background-color: white; }
+amexio-window-header {
+  width: 100%;
+  display: inline-flex; }
 
-.modal-window-footer {
-  display: flex;
-  border-top: 1px solid #ced4da; }
+amexio-window-header > amexio-toolbar {
+  flex-grow: 1; }
 
-.modal-window-table {
-  display: table;
-  width: 100%; }
-
-.modal-window-table .tablerow {
-  display: table-row; }
-
-.window-material-design-header .modal-window-table .tablerow .tablecol {
-  display: table-cell;
-  vertical-align: middle;
-  padding-bottom: 15px; }
-
-.modal-window-table .tablerow .tablecol {
-  display: table-cell;
-  vertical-align: baseline; }
-
-.modal-window-footer-max {
-  bottom: 0px;
-  position: absolute;
-  width: 99%; }
-
-.footer-right-align {
-  padding-right: 7px; }
-
-.window-left {
-  left: 20px; }
-
-.window-right {
-  right: 7px; }
-
-.window-top {
-  top: 10px; }
-
-.window-center {
-  top: 20%;
-  left: 10%; }
-
-.window-bottom {
-  bottom: 10%; }
+amexio-window-header > amexio-toolbar > .toolbar {
+  padding: 0px; }
 
 /****************************************************************************
     Component Name : Dialogue
