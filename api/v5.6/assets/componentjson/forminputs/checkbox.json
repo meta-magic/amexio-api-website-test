@@ -1,0 +1,85 @@
+{ 
+    "title": "Amexio Checkbox",
+    "description": "Single checkbox having boolean based values.",
+    "apiRefMetadata": [
+      {
+        "gridTitle": "Properties <amexio-checkbox>",
+        "columnDefinition": [
+          {
+            "dataindex": "name",
+            "text": "Name",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "type",
+            "text": "Type",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "description",
+            "text": "Description",
+            "width": 60,
+            "hidden": false,
+            "datatype": "string"
+          }
+        ],
+        "gridData": [
+          {
+            "name": "field-label",
+            "type": "string",
+            "default": "",
+            "description":"The label of this field"
+          },
+          {
+            "name": "disabled",
+            "type": "boolean",
+            "default": "false",
+            "description":"If true will not react on any user events and show disable icon over"
+          },
+          {
+            "name": "required",
+            "type": "boolean",
+            "default": "false",
+            "description":"Validate field"
+          }
+        ]
+      },
+      {
+        "gridTitle": "Events",
+        "columnDefinition": [
+          {
+            "dataindex": "name",
+            "text": "Name",
+            "width": 15,
+            "hidden": false
+          },
+          {
+            "dataindex": "description",
+            "text": "Description",
+            "width": 60,
+            "hidden": false
+          }
+        ],
+        "gridData": [
+          {
+            "name": "onSelection",
+            "description":"Event fired on checkbox click."
+          }
+        ]
+      }
+        ],
+    "sourceMetadata":{
+      "htmlUrl": "forms/singlecheckbox/form.html",
+      "tsUrl":"forms/singlecheckbox/form.text",
+      "datasourceUrl": ""
+    },
+    "liveMetadata":{
+      "disabled":false,
+      "stackblitzUrl": "https://stackblitz.com/edit/amexio-v4-single-checkbox?embed=1&file=app/forms/singlecheckbox/singlecheckbox.demo.html"
+    }
+  }
+  

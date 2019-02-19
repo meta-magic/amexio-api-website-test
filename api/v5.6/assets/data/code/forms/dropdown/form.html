@@ -1,0 +1,28 @@
+<!--Simple dropdown with http url-->
+<amexio-dropdown [(ngModel)]="countryCode1"
+                 [place-holder]="'Choose'"
+                 name="countryCode1"
+                 [data-reader]="'data'"
+                 [field-label]="'Choose Country'"
+                 [http-url]="'assets/data/componentdata/country.json'"
+                 [http-method]="'get'"
+                 [display-field]="'countryName'"
+                 [value-field]="'countryCode1'"
+                 [enable-sort]="true"
+                 [sort]="'asc'">
+</amexio-dropdown>
+
+
+<!--Simple dropdown with inner structure-->
+<amexio-dropdown [(ngModel)]="personName"
+                 [place-holder]="'Address'"
+                 name="personName"
+                 [data-reader]="'data'"
+                 [field-label]="'Address'"
+                 [http-url]="'assets/data/componentdata/personProfile.json'"
+                 [http-method]="'get'"
+                 [display-field]="'address.addressLabel'"
+                 [value-field]="'personName'"
+                 [enable-sort]="true"
+                 [sort]="'asc'">
+</amexio-dropdown>
