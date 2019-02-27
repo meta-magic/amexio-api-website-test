@@ -4129,6 +4129,10 @@ header .billboard .content-button {
     Component Name : Enterprise Calendar
     Version : Amexio v5.7 onwards
 *****************************************************************************/
+.calendar-header {
+  background-color: #70196F;
+  color: white; }
+
 .calendar-header-items {
   border: 1px solid #70196F; }
 
@@ -4136,7 +4140,7 @@ header .billboard .content-button {
   border: 1px solid #70196F; }
 
 .calendar-inactive {
-  color: #70196F; }
+  opacity: 0.5; }
 
 .calendar-active-box {
   background-color: #f3c8f2;
@@ -4151,7 +4155,11 @@ header .billboard .content-button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding: 10px 24px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize; }
 
 .calendar-header-items {
   padding: 0.571em 1em;
