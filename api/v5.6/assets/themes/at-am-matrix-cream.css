@@ -1261,7 +1261,7 @@ button {
   line-height: 2;
   border-radius: 0px;
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 .input-control:focus {
@@ -4154,10 +4154,6 @@ header .billboard .content-button {
   color: #000000;
   cursor: pointer; }
 
-.calendar-ul {
-  list-style-position: inside;
-  padding-left: 0; }
-
 .calendar-active-custom-color {
   height: 100%;
   margin: 0px -5px; }
@@ -4261,9 +4257,10 @@ header .billboard .content-button {
 .calendar-ul {
   list-style: none;
   list-style-position: inside;
-  padding: 10px; }
+  padding: 10px 2px; }
 
 .calendar-li {
+  padding-left: 5px;
   padding-bottom: 5px;
   cursor: pointer; }
 
@@ -5840,7 +5837,7 @@ amexio-layout-columns amexio-layout-item {
   color: #FFFDD0; }
 
 .accordion:after {
-  color: red; }
+  color: #dc143c; }
 
 .panel {
   background-color: #000000;
@@ -6137,21 +6134,25 @@ fieldset {
   font-size: 12px; }
 
 .step-box-table-item {
-  background-color: #000000;
+  background-color: #000000; }
+
+.step-box-table-item a {
   color: rgba(255, 255, 255, 0.7); }
 
 .step-box-table-item.active {
   background-color: #000000 !important; }
 
 .step-box-table-item.disbaled {
-  background-color: #a09e9e; }
+  background-color: #a09e9e;
+  color: #FFFDD0; }
 
 .index-step-inactive {
   background-color: rgba(255, 253, 208, 0.4);
-  color: inherit; }
+  color: #FFFDD0; }
 
 .step-box-table-item-hover:hover {
-  background-color: rgba(255, 253, 208, 0.4); }
+  background-color: rgba(255, 253, 208, 0.4);
+  color: #FFFDD0; }
 
 /** steps - Structure CSS **/
 .stepwizard-step p {
