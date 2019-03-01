@@ -1186,7 +1186,7 @@ button {
   background-color: #ffc96b; }
 
 .drodown-caret-down {
-  color: rgba(0, 0, 0, 0.42); }
+  color: #121212; }
 
 .list-items-selected {
   background-color: #ffe5b8;
@@ -3429,6 +3429,15 @@ input:checked + .toggle-slider:before {
     Version : Amexio v4.2 onwards
 ****************************************************************************/
 /** CreditCard - Visual CSS **/
+.image-label .fa {
+  color: #121212 !important; }
+
+.image .fa {
+  color: #121212 !important; }
+
+.imageSglCol .fa {
+  color: #121212 !important; }
+
 /** CreditCard - Structure CSS **/
 /* CSS FOR SINGLE COLUMN */
 .creditCardFormSglCol {
@@ -4812,7 +4821,7 @@ header .billboard .content-button {
   z-index: 1;
   padding: 10px 0px;
   overflow-y: auto;
-  background-color: white !important;
+  background-color: #ffffff !important;
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
 
 .context-menu-list .context-menu-list-items {
@@ -5471,7 +5480,7 @@ header .billboard .content-button {
   background-color: #ffffff; }
 
 .context-menu-list1 {
-  background-color: #ffffff !important;
+  background-color: #ffffff;
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
 
 .context-menu-list1 :hover {
@@ -5870,7 +5879,7 @@ fieldset {
 *****************************************************************************/
 /** steps - Visual CSS **/
 .step-label-highlight {
-  color: #ffe4b5;
+  color: #241700;
   font-weight: bold; }
 
 .stepwizard-step p {
@@ -6398,7 +6407,8 @@ fieldset {
   font-weight: 400;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: transparent;
+  background-color: #ffffff;
+  color: #121212;
   max-height: 100%; }
 
 .modal-window-header {
