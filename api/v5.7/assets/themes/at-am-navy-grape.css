@@ -5627,14 +5627,14 @@ amexio-layout-columns amexio-layout-item {
   color: #000080;
   outline: none !important; }
 
-.innerSideNav:focus {
-  background-color: #e6e6ff;
-  color: #000080;
-  outline: none !important; }
-
 .sidenav .headernodeSeparator:hover {
   background-color: #e6e6ff;
   color: #000080; }
+
+.sidenav .defaultnode:focus {
+  background-color: #e6e6ff;
+  color: #000080;
+  outline: none !important; }
 
 .sidenav .defaultnode:hover {
   background-color: #e6e6ff;

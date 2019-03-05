@@ -5378,14 +5378,14 @@ amexio-step-wizard .form-footer {
   color: #520800;
   outline: none !important; }
 
-.innerSideNav:focus {
-  background-color: #ffbfb8;
-  color: #520800;
-  outline: none !important; }
-
 .sidenav .headernodeSeparator:hover {
   background-color: #ffbfb8;
   color: #520800; }
+
+.sidenav .defaultnode:focus {
+  background-color: #ffbfb8;
+  color: #520800;
+  outline: none !important; }
 
 .sidenav .defaultnode:hover {
   background-color: #ffbfb8;
