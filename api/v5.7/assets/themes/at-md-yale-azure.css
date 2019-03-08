@@ -4539,10 +4539,6 @@ amexio-homepage-northpanel .top-nav-button {
   display: flex;
   flex-direction: row; }
 
-.homepage-1 .sidenav .border,
-.homepage-2 .sidenav .border {
-  border-bottom: none; }
-
 .collaspe-icon-style {
   margin-right: -26px;
   z-index: 2;
