@@ -8637,7 +8637,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /************************************************************************/
 /*        HOMEPAGE LAYOUT Media Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   amexio-homepage-northpanel .topnav-lhs-mobile .mobilebar {
     flex-grow: 0.1; } }
 /****************************************************************************
@@ -8838,9 +8838,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /************************************************************************/
 /*        HOMEPAGE LAYOUT Media Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1440px) {
-  amexio-homepage-northpanel .topnav-lhs-mobile .mobilebar {
-    flex-grow: 0.1; } }
 /****************************************************************************
                     Media Query for width - 1440
 *****************************************************************************/
