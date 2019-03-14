@@ -5449,12 +5449,13 @@ amexio-homepage-northpanel .top-nav-button {
   right: 10px; }
 
 .navbar-logo {
-  width: 40px;
-  height: 40px; }
+  width: 50px;
+  height: 50px; }
 
 .sidenav-padding {
   display: inline-flex;
   flex-direction: row;
+  height: 50px;
   align-items: center; }
 
 .sidenav-mobile-bar {
@@ -5477,6 +5478,10 @@ amexio-homepage-northpanel .top-nav-button {
 
 .topnav-lhs,
 .topnav-rhs > * {
+  height: 50px;
+  align-items: center; }
+
+.homepage-collapse {
   align-items: center; }
 
 /****************************************************************************
