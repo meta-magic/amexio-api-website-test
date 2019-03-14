@@ -4801,6 +4801,12 @@ amexio-homepage-northpanel .top-nav-button {
 .itemselector-list-active {
   background-color: #2c92fc; }
 
+.itemselector-list-active:focus {
+  background-color: #2c92fc; }
+
+.itemselector-list:focus {
+  background-color: #0378f2; }
+
 .itemselector-list:hover {
   background-color: #0378f2; }
 
@@ -6410,6 +6416,11 @@ fieldset {
   font-weight: bold;
   cursor: pointer; }
 
+.collapsible-legend:focus {
+  outline: none;
+  background-color: #0378f2;
+  color: rgba(0, 43, 87, 0.7); }
+
 .collapsible-fieldset {
   overflow: hidden; }
 
@@ -7029,6 +7040,21 @@ amexio-window-header > amexio-toolbar > .toolbar {
 .dialogue-header {
   background: none;
   color: #1FBCD2; }
+
+.dialogue-table:focus {
+  outline: none;
+  background-color: #0378f2;
+  color: rgba(0, 43, 87, 0.7); }
+
+.tablecol:focus {
+  outline: none;
+  background-color: #0378f2;
+  color: rgba(0, 43, 87, 0.7); }
+
+.dialogue-message:focus {
+  outline: none;
+  background-color: #0378f2;
+  color: rgba(0, 43, 87, 0.7); }
 
 .dialogue-footer {
   background-color: rgba(0, 43, 87, 0.7);
