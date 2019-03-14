@@ -4625,6 +4625,26 @@ amexio-homepage-northpanel .top-nav-button {
 .datatable-row:nth-child(odd) {
   background-color: #1C2949; }
 
+.datatable-col:focus {
+  background-color: #90a4d4;
+  color: white;
+  outline: none; }
+
+.float-right .enablecolumnfilter:focus {
+  background-color: #90a4d4;
+  color: white;
+  outline: none; }
+
+.dropdown-list .list-items:focus {
+  background-color: #90a4d4;
+  color: white;
+  outline: none; }
+
+.datatable-filter-icon:focus {
+  background-color: #90a4d4;
+  color: white;
+  outline: none; }
+
 /** Datatable - Visual CSS **/
 .datatabletitle {
   font-size: 1.5em;

@@ -4668,6 +4668,26 @@ amexio-homepage-northpanel .top-nav-button {
 .datatable-row:nth-child(odd) {
   background-color: #f5f5f5; }
 
+.datatable-col:focus {
+  background-color: #ffc2b8;
+  color: #520c00;
+  outline: none; }
+
+.float-right .enablecolumnfilter:focus {
+  background-color: #ffc2b8;
+  color: #520c00;
+  outline: none; }
+
+.dropdown-list .list-items:focus {
+  background-color: #ffc2b8;
+  color: #520c00;
+  outline: none; }
+
+.datatable-filter-icon:focus {
+  background-color: #ffc2b8;
+  color: #520c00;
+  outline: none; }
+
 /** Datatable - Visual CSS **/
 .datatabletitle {
   font-size: 1.5em;
