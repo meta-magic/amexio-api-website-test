@@ -1,0 +1,24 @@
+<!-- D3-Scatter Chart User Define Color -->
+<amexio-d3-chart-scatter 
+        [data]="scatterChartData" 
+        [label]="true"
+        [label-color]="'#0000b3'"
+        [height]="400" 
+        [zoom-enable]="true"
+        [title]="'Age vs Weight'"
+        (onChartClick)="onChartClick($event)"
+        (onLegendClick)="onLegendClick($event)"
+        [color]="'green'" >
+ </amexio-d3-chart-scatter>
+
+ <!-- D3-scatter chart with Multiple Scatter Points -->
+ <amexio-d3-chart-scatter 
+        [data]="mineralScatterChartData" 
+        [label]="true"
+        [height]="400" 
+        [zoom-enable]="true"
+        [title]="'Minerals'"
+        [vertical-scale]="false"
+        (onChartClick)="onChartClick1($event)"
+        (onLegendClick)="onLegendClick1($event)">
+</amexio-d3-chart-scatter>
