@@ -1313,6 +1313,9 @@ button {
 .inputgroup {
   position: relative; }
 
+.inputgroup ::placeholder {
+  padding-left: 5px !important; }
+
 .inputgroup > label {
   display: inline-block;
   margin-bottom: .5rem; }
@@ -1323,7 +1326,7 @@ button {
 
 .input-control {
   width: 100%;
-  padding: .375rem 0px .375rem 5px;
+  padding: .375rem 0;
   line-height: 2;
   border-radius: 0px;
   border: none;
@@ -4861,6 +4864,9 @@ amexio-homepage-centerpanel .homepage-centerpanel {
   line-height: 38px;
   text-align: center; }
 
+.iconPaddingStyle {
+  padding-right: 5px; }
+
 /****************************************************************************
     Component Name : Horizontaltreeview
     Version : Amexio v4.0 onwards
@@ -5130,6 +5136,11 @@ amexio-homepage-centerpanel .homepage-centerpanel {
 
 .context-menu-separator {
   border-bottom: 1px solid gray; }
+
+.horizontaltreeview-node-label:focus {
+  outline: none;
+  background-color: #ffe5b8;
+  color: #523400; }
 
 /** Treenode - Structure CSS **/
 .treeview {
