@@ -470,7 +470,7 @@ image using the content attribute.
 .button-primary {
   background-color: var(--themeSecondaryColor);
   border-color: var(--themeSecondaryColor);
-  color: var(--componentBGColor); }
+  color: var(--componentHeaderFontColor); }
 
 .disabled {
   background-color: var(--componentDisabledBGColor);
@@ -4374,6 +4374,7 @@ header .billboard .content-button {
 
 .calendar-box-items:focus {
   background-color: var(--componentHoverBGColor);
+  color: var(--componentHoverFontColor);
   outline: none; }
 
 .calendar-user-active:focus {
@@ -4550,8 +4551,8 @@ header .billboard .content-button {
   color: var(--componentFontColor); }
 
 ul.step-wizard li.active a .circle {
-  background-color: var(--themePrimaryColor);
-  color: var(--appBackground); }
+  background-color: var(--componentHoverBGColor);
+  color: var(--componentHoverFontColor); }
 
 ul.step-wizard li.completed a .circle {
   background-color: var(--themeSecondaryColor);
@@ -5787,7 +5788,7 @@ amexio-homepage-centerpanel .homepage-centerpanel {
 
 .sidenav .activenode {
   background-color: var(--componentActiveBGColor) !important;
-  color: inherit !important; }
+  color: var(--componentActiveFontColor) !important; }
 
 .sidenav .border {
   border-bottom: 1px solid #ced4da; }
@@ -7842,7 +7843,8 @@ amexio-layout-columns amexio-layout-item {
     Component Name : Creative
     Version : Amexio v5.5.5 onwards
 *****************************************************************************/
-/** rowcol - Structure CSS **/
+/** creative card - var CSS **/
+/** creative card - Visual CSS **/
 .card-container-ce {
   height: 100%;
   position: relative;
@@ -7857,6 +7859,10 @@ amexio-layout-columns amexio-layout-item {
 
 .card-container-ce-color {
   color: #121212; }
+
+.card-container-ce-theme-color {
+  color: var(--componentHeaderFontColor);
+  background-color: var(--componentHeaderBGColor); }
 
 .card-container-header {
   padding: 10px;
@@ -7929,6 +7935,7 @@ amexio-layout-columns amexio-layout-item {
   margin: -10px 10px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
+/** creative card - Structure CSS **/
 /** Initialze Animation variables ------------ */
 /****************************************************************************
                 Animation CSS for Checkbox 
