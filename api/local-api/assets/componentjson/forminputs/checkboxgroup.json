@@ -85,6 +85,13 @@
             "default": ""
           },
           {
+            "name": "value-field",
+            "description": "Name of key inside response data.use to send to backend",
+            "version": "4.0 onwards",
+            "type": "string",
+            "default": ""
+          },
+          {
             "name": "disabled",
             "description": "If true will not react on any user events and show disable icon over",
             "version": "4.0 onwards",
@@ -96,13 +103,6 @@
             "description": "Local data for checkboxGroup.",
             "version": "4.0 onwards",
             "type": "any",
-            "default": ""
-          },
-          {
-            "name": "name",
-            "description": "name can be provided or it can also be generated using field label",
-            "version": "4.0 onwards",
-            "type": "string",
             "default": ""
           },
           {

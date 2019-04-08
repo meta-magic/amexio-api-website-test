@@ -136,6 +136,10 @@
                 {
                     "name": "input",
                     "description": "On input event field."
+                },
+                {
+                    "name": "focus",
+                    "description": "On field focus event"
                 }
             ]
         }

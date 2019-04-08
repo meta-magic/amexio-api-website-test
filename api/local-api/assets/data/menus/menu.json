@@ -12,7 +12,12 @@
         {
             "text": "Amexio D3 Charts",
             "link": "d3-charts",
-            "icon": "fa fa-openid  "
+            "icon": "fa fa-openid"
+        },
+        {
+            "text": "Amexio Accessibility",
+            "link": "amexio-accessibility",
+            "icon": "fa fa-universal-access"
         },
         {
             "text": "Layouts",
@@ -428,7 +433,7 @@
         },
         {
             "text": "Form Actions",
-            "badge": "3",
+            "badge": "2",
             "icon": "fa fa-keyboard-o  ",
             "children": [{
                     "text": "Buttons",
@@ -456,7 +461,6 @@
                         {
                             "text": "Floating Group",
                             "icon": "fa fa-circle-o  ",
-                            "badge": "U",
                             "link": "forms-Action/floatinggroupbutton-demo"
                         }
                     ]
@@ -965,7 +969,6 @@
         },
         {
             "text": "Maps",
-            "badge": "1",
             "icon": "fa fa-globe  ",
             "children": [{
                     "text": "Geo Chart",
@@ -975,7 +978,6 @@
                 {
                     "text": "Tree Map",
                     "icon": "fa fa-trello  ",
-                    "badge": "U",
                     "link": "map/tree-map-demo"
                 },
                 {
@@ -988,7 +990,7 @@
         {
             "text": "Enterprise",
             "icon": "fa fa-medium",
-            "badge": "3",
+            "badge": "2",
             "children": [{
                     "text": "Media Content",
                     "icon": "fa fa-id-card-o  ",
@@ -1006,7 +1008,6 @@
                 }, {
                     "text": "Appointment",
                     "icon": "fa fa-calendar  ",
-                    "badge": "U",
                     "link": "enterprise/ee-appointment-demo"
                 }, {
                     "text": "Calendar",

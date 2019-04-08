@@ -62,13 +62,6 @@
           "type": "boolean",
           "default": "false",
           "description": "enable colon after LHS fieldName."
-        },
-        {
-          "name": "enable-key-bold",
-          "version": "5.9.3 onwards",
-          "type": "boolean",
-          "default": "false",
-          "description": "enable label in bold font."
         }
       ]
     },
@@ -117,7 +110,7 @@
     "datasourceUrl": ""
   },
   "liveMetadata": {
-    "disabled": false,
-    "stackblitzUrl": "https://stackblitz.com/edit/amexio-property-grid?embed=1&file=app/data/PropertyGrid/propertygrid.demo.html&view=editor"
+    "disabled": true,
+    "stackblitzUrl": ""
   }
 }

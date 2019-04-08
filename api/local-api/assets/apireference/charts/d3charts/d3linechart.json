@@ -113,6 +113,13 @@
             "version": "0.0.8 Onwards",
             "type": "boolean",
             "default": "false"
+        },
+        {
+            "name": "yaxis-interval",
+            "description": "Sets number of ticks on Yaxis",
+            "version": "0.1.2 Onwards",
+            "type": "number",
+            "default": ""
         }
     ],
     "legend": [

@@ -3,7 +3,7 @@
     "description": "Text input component has been created with different configurable attributes for validation (min/max length, allow blank, custom regex), custom error message, help, custom styles.",
     "apiRefMetadata": [
       {
-        "gridTitle": "Properties <amexio-text-input>",
+        "gridTitle": "Properties <amexio-textinput>",
         "columnDefinition": [
           {
             "dataindex": "name",
@@ -49,6 +49,18 @@
             "description": "The label of this field"
           },
           {
+            "name": "rows",
+            "type": "number",
+            "default": "",
+            "description": "Number of rows for textarea."
+          },
+          {
+            "name": "columns",
+            "type": "number",
+            "default": "",
+            "description": "Number of column for textarea."
+          },
+          {
             "name": "pattern",
             "type": "string",
             "default": "",
@@ -83,12 +95,6 @@
             "type": "boolean",
             "default": "false",
             "description": "Enable/Disabled validation icon"
-          },
-          {
-            "name": "name",
-            "description": "name can be provided or it can also be generated using field label",
-            "type": "string",
-            "default": ""
           },
           {
             "name": "font-style",

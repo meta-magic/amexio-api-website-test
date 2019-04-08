@@ -195,13 +195,6 @@
                     "default": "row",
                     "version": "5.8 onwards",
                     "description": "set direction of form header"
-                },
-                {
-                    "name": "icon-align",
-                    "type": "string",
-                    "default": "",
-                    "version": "5.8 onwards",
-                    "description": "sets icon alignment"
                 }
             ]
         },

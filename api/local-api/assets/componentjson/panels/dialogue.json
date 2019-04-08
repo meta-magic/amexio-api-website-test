@@ -173,14 +173,6 @@
         {
           "name": "close",
           "description": "Fire when user close dialogue"
-        },
-        {
-          "name": "onSuccess",
-          "description": "Fire when click on yes button"
-        },
-        {
-          "name": "onFailure",
-          "description": "Fire when click on no button"
         }
       ]
     }

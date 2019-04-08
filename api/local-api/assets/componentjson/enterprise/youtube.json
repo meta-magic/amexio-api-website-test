@@ -35,6 +35,12 @@
         }
       ],
       "gridData": [
+      {
+      "name": "video-id",
+      "type": "string",
+      "default": "",
+      "description": "Set video Id."
+    },
     {
       "name": "height",
       "type": "number",
@@ -53,29 +59,6 @@
       "default": "",
       "description": "url of the video"
     }
-      ]
-    },
-    {
-      "gridTitle": "Events",
-      "columnDefinition": [
-        {
-          "dataindex": "name",
-          "text": "Name",
-          "width": 15,
-          "hidden": false
-        },
-        {
-          "dataindex": "description",
-          "text": "Description",
-          "width": 60,
-          "hidden": false
-        }
-      ],
-      "gridData": [
-        {
-          "name": "onCloseVideoPlayer",
-          "description": "Emits when video is closed."
-        }
       ]
     }
   ],
