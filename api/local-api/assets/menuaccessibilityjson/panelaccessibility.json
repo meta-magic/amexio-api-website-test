@@ -6,12 +6,12 @@
             "Screen-Reader": "Yes"
         },
         {
-            "Component": "Dailogue",
+            "Component": "Dialogue",
             "Keyboard": "No",
             "Screen-Reader": "Yes"
         },
         {
-            "Component": "Feildset",
+            "Component": "Fieldset",
             "Keyboard": "No",
             "Screen-Reader": "Yes"
         },

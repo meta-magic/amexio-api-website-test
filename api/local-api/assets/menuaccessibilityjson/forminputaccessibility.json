@@ -1,0 +1,105 @@
+{
+    "data": [
+        {
+            "Component": "Checkbox",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Checkbox Group",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Chips",
+            "Keyboard": "Yes",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Credit-Card",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Date & Time Picker",
+            "Keyboard": "Yes",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Dropdown",
+            "Keyboard": "Yes",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Email Field",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "File Upload",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Label",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Number Field",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Password Field",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Radio Group",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Rating",
+            "Keyboard": "Yes",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Search Box",
+            "Keyboard": "Yes",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Slider",
+            "Keyboard": "Yes",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Type Ahead",
+            "Keyboard": "Yes",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Tag Field",
+            "Keyboard": "Yes",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Text Field",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "TextArea Field",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        },
+        {
+            "Component": "Toggle",
+            "Keyboard": "No",
+            "Screen-Reader": "Yes"
+        }
+        
+    ]
+}

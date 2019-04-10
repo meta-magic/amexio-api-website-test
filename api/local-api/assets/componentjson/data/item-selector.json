@@ -130,6 +130,10 @@
     },{
       "name": "availableRecords",
       "description":"Get available values objects.."
+    },
+    {
+      "name": "onDrag",
+      "description":"Emits node data when node is dragged."
     }
         ]
       }
@@ -142,5 +146,38 @@
   "liveMetadata": {
     "disabled": false,
     "stackblitzUrl": ""
-  }
+  },
+  "apiaccessibledata":[
+    {
+      "gridTitle": "Properties  <amexio-item-selector>",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Key",
+          "width": 30
+          
+        },
+        {
+          "dataindex": "description",
+          "text": "Function",
+          "width": 70
+       
+        }
+      ],
+      "gridData": [
+        {
+          "name": "Enter",
+          "description": "On enter click elements get selected inside item selector."
+        },
+        {
+          "name": "Home",
+          "description": "On click of Home will move element to first element."
+        },
+        {
+          "name": "End",
+          "description": "On click of End will move element to last element."
+        }
+      ]
+    }
+  ]
 }
