@@ -21,7 +21,7 @@
         },
         {
             "text": "Layouts",
-            "badge": "2",
+            "badge": "3",
             "icon": "fa fa-desktop  ",
             "children": [{
                     "text": "Accordion",
@@ -63,6 +63,12 @@
                     "icon": "fa fa-creative-commons  ",
                     "badge": "NEW",
                     "link": "creative/card-ce-demo"
+                },
+                {
+                    "text": "Creative Carousel",
+                    "icon": "fa fa-cc  ",
+                    "badge": "NEW",
+                    "link": "creative/carousel-ce-demo"
                 },
                 {
                     "text": "Creative Home Page",
@@ -168,7 +174,6 @@
                 {
                     "text": "Tab",
                     "icon": "fa fa-folder  ",
-                    "badge":"U",
                     "children": [{
                             "text": "Horizontal",
                             "icon": "fa fa-indent  ",
@@ -230,6 +235,12 @@
                     "text": "Window",
                     "icon": "fa fa-window-maximize  ",
                     "link": "panes/window-demo"
+                },
+                {
+                    "text": "Viewport",
+                    "badge": "NEW",
+                    "icon": "fa fa-indent  ",
+                    "link": "creative/viewport-demo"
                 }
             ]
         },
@@ -314,6 +325,14 @@
                     "link": "forms-Input/date-picker-demo"
 
                 },
+                {
+                    "text": "Multiple Date Picker",
+                    "icon": "fa fa-calendar  ",
+                    "badge": "NEW",
+                    "link": "forms-Input/multidatepicker-demo"
+
+                },
+
                 {
                     "text": "DropDown",
                     "icon": "fa fa-caret-square-o-down  ",
@@ -404,6 +423,12 @@
                     "text": "Slider",
                     "icon": "fa fa-sliders  ",
                     "link": "forms-Input/slider-demo"
+                },
+                {
+                    "text": "Range Slider",
+                    "icon": "fa fa-arrows-h  ",
+                    "badge":"NEW",
+                    "link": "forms-Input/value-range"
                 },
                 {
                     "text": "Type Ahead",

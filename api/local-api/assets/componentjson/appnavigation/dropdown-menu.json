@@ -212,7 +212,7 @@
   },
   "apiaccessibledata":[
     {
-      "gridTitle": "Properties <amexio-dockbar>",
+      "gridTitle": "Properties <amexio-drop-down-menu>",
       "columnDefinition": [
         {
           "dataindex": "name",
