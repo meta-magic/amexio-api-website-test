@@ -1,0 +1,86 @@
+{
+  "title": "Amexio BorderLayout",
+  "description": "A border layout lays out a container, arranging and resizing its components to fit in five regions: north, south, east, west, and center.",
+  "apiaccessibledata":[
+    {
+      "gridTitle": "Properties <amexio-borderlayout-item>",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Key",
+          "width": 30
+          
+        },
+        {
+          "dataindex": "description",
+          "text": "Function",
+          "width": 70
+       
+        }
+      ],
+      "gridData": [
+        {
+          "name": "Tab",
+          "description": "Moves focus to the next focusable element.All focusable elements in the layout are included in the page Tab sequence."
+        },
+        {
+          "name": "Shift+Tab",
+          "description": " Moves focus to the previous focusable element.All focusable elements in the layout are included in the page Tab sequence."
+        }
+      ]
+    }
+  ],
+  "apiRefMetadata": [
+    {
+      "gridTitle": "Item Properties <amexio-borderlayout-item>",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "type",
+          "text": "Type",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "default",
+          "text": "Default",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false,
+          "datatype": "string"
+        }
+      ],
+      "gridData": [
+        {
+          "name": "position",
+          "description": "Layout the contents to North , East , West , Center & South positions",
+          "version": "4.0 onwards",
+          "type": "string",
+          "default": ""
+        }
+      ]
+    }
+  ],
+  "sourceMetadata": {
+    "htmlUrl": "border/border.html",
+    "tsUrl": "border/border.text",
+    "datasourceUrl": ""
+  },
+  "liveMetadata": {
+    "disabled": false,
+    "stackblitzUrl": "https://stackblitz.com/edit/amexio-v4-borderlayout?embed=1&file=app/layouts/borderlayout/borderlayout.demo.html"
+  }
+}
