@@ -1977,6 +1977,24 @@ input:checked + .mediumType2ToggleSlider {
 input:checked + .largeType2ToggleSlider {
   background-color: var(--componentHoverBGColor); }
 
+.smallToggleSlider:focus {
+  outline: 1px solid var(--componentActiveBGColor); }
+
+.mediumToggleSlider:focus {
+  outline: 1px solid var(--componentActiveBGColor); }
+
+.largeToggleSlider:focus {
+  outline: 1px solid var(--componentActiveBGColor); }
+
+.largeType2ToggleSlider:focus {
+  outline: 1px solid var(--componentActiveBGColor); }
+
+.mediumType2ToggleSlider:focus {
+  outline: 1px solid var(--componentActiveBGColor); }
+
+.smallType2ToggleSlider:focus {
+  outline: 1px solid var(--componentActiveBGColor); }
+
 /** toggle - Structure CSS **/
 /* Rounded sliders */
 .round {
@@ -3242,12 +3260,12 @@ input:checked + .largeType2ToggleSlider:before {
   border-color: #ced4da; }
 
 .form-control {
-  color: var(--componentActiveFontColor);
+  color: var(--componentFontColor);
   background-color: var(--componentBGColor);
   border-color: #ced4da; }
 
 .search-form-label {
-  color: var(--componentActiveFontColor); }
+  color: var(--componentFontColor); }
 
 .iconColor {
   color: var(--componentHeaderFontColor); }
@@ -3260,10 +3278,12 @@ input:checked + .largeType2ToggleSlider:before {
   background-color: var(--componentBGColor); }
 
 .search-dropdown-list li:hover {
-  background: var(--componentHoverBGColor); }
+  background: var(--componentHoverBGColor);
+  color: var(--componentHoverFontColor); }
 
 .search-list-items-selected {
-  background-color: var(--componentHoverBGColor) !important; }
+  background-color: var(--componentHoverBGColor) !important;
+  color: var(--componentHoverFontColor) !important; }
 
 .search-dropdown-list {
   border-color: #ced4da;
@@ -3288,7 +3308,8 @@ input:checked + .largeType2ToggleSlider:before {
   font-weight: normal;
   border-width: 1px;
   border-style: solid;
-  padding: .5%; }
+  padding: .5%;
+  z-index: 99; }
 
 .dropdownposition {
   position: absolute;
