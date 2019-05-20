@@ -248,6 +248,8 @@
       ]
     }
   ],
+  "isAccessibility": false,
+
   "sourceMetadata": {
     "htmlUrl": "charts/candlestickchart/chart.html",
     "tsUrl": "charts/candlestickchart/chart.text",

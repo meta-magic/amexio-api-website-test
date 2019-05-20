@@ -96,6 +96,8 @@
         ]
       }
     ],
+  "isAccessibility": false,
+    
     "sourceMetadata": {
       "htmlUrl": "forms/linkedinlogin/form.html",
       "tsUrl": "forms/linkedinlogin/form.text",

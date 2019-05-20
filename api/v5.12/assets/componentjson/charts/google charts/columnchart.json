@@ -239,6 +239,8 @@
       ]
     }
   ],
+  "isAccessibility": false,
+
   "sourceMetadata": {
     "htmlUrl": "charts/columnchart/chart.html",
     "tsUrl": "charts/columnchart/chart.text",

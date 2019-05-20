@@ -79,6 +79,8 @@
       ]
     }
   ],
+  "isAccessibility": false,
+
   "sourceMetadata": {
     "htmlUrl": "enterprise/videoplayer/ee.html",
     "tsUrl": "enterprise/videoplayer/ee.text",

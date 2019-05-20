@@ -74,6 +74,8 @@
          ]
     }
   ],
+  "isAccessibility": false,
+
   "sourceMetadata": {
     "htmlUrl": "charts/ganttchart/chart.html",
     "tsUrl": "charts/ganttchart/chart.text",

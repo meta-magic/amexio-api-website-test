@@ -29,6 +29,8 @@
       ]
     }
   ],
+  "isAccessibility": false,
+
   "sourceMetadata": {
     "htmlUrl": "",
     "tsUrl": "",

@@ -58,6 +58,8 @@
       "tsUrl": "",
       "datasourceUrl": ""
     },
+  "isAccessibility": false,
+
     "liveMetadata": {
       "disabled": true,
       "stackblitzUrl": ""

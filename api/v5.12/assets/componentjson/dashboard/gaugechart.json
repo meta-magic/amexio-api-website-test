@@ -79,6 +79,8 @@
       ]
     }
   ],
+  "isAccessibility": false,
+
   "sourceMetadata": {
     "htmlUrl": "dashboard/gauge/chart.html",
     "tsUrl": "dashboard/gauge/chart.text",

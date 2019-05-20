@@ -79,6 +79,8 @@
         ]
       }
     ],
+  "isAccessibility": false,
+
     "sourceMetadata": {
       "htmlUrl": "forms/recaptcha/recaptcha.html",
       "tsUrl": "forms/recaptcha/recaptcha.text",

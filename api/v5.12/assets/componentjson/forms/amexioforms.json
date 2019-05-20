@@ -154,6 +154,8 @@
         ]
       }
     ],
+  "isAccessibility": false,
+
     "sourceMetadata": {
       "htmlUrl": "pane/form/form.html",
       "tsUrl": "pane/form/form.text",

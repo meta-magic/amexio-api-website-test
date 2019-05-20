@@ -353,6 +353,8 @@
       ]
     }
   ],
+  "isAccessibility": false,
+
   "sourceMetadata": {
     "htmlUrl": "charts/scatterchart/chart.html",
     "tsUrl": "charts/scatterchart/chart.text",

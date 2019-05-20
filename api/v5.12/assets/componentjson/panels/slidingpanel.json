@@ -109,6 +109,8 @@
         ]
       }
     ],
+  "isAccessibility": false,
+
     "sourceMetadata": {
       "htmlUrl": "pane/slidingpanel/form.html",
       "tsUrl": "pane/slidingpanel/form.text",

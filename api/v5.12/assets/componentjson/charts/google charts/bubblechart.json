@@ -339,6 +339,8 @@
       ]
     }
   ],
+  "isAccessibility": false,
+
   "sourceMetadata": {
     "htmlUrl": "charts/bubblechart/chart.html",
     "tsUrl": "charts/bubblechart/chart.text",
