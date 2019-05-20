@@ -1,0 +1,21 @@
+{
+  "properties": [
+    {
+      "name": "layout",
+      "type": "string",
+      "default": "desktop",
+      "description":"It is name of layout to be plotted",
+      "version": "5.4 onwards"
+    }
+  ],
+
+  "childproperties":[
+    {
+      "name": "name",
+      "type": "string",
+      "default": "",
+      "description":"It is type which given according to the pattern of data input",
+      "version": "5.4 onwards"
+    }
+  ]
+}
