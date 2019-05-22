@@ -1,0 +1,18 @@
+{
+  "data":[{
+    "gender":"Male",
+    "genderId":"male"
+  },{
+    "gender":"Female",
+    "genderId":"female"
+  }
+  ],
+  "radiodata":[{
+    "gender":"Male",
+    "genderId":"male1"
+  },{
+    "gender":"Female",
+    "genderId":"female1"
+  }
+  ]
+}
