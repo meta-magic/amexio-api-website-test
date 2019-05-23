@@ -638,7 +638,8 @@
       "style": "Material Design",
       "navBarBGColor": "#1565c0",
       "navBarFontColor": "#f1f7fd",
-      "link": "AT-MD-Blue.jpg"
+      "link": "AT-MD-Blue.jpg",
+      "themeJSONFile": "at-md-blue.json"
     },
      {
       "themeName": "Cerise Magenta",
@@ -649,6 +650,7 @@
       "style": "Material Design",
       "navBarBGColor": "#de3163",
       "navBarFontColor": "#fefbfc",
+      "themeJSONFile": "at-md-cerise-magenta.json",
       "link": "AT-MD-Cerise-Magenta.jpg"
     },
      {
@@ -660,6 +662,7 @@
       "style": "Material Design",
       "navBarBGColor": "#7f461b",
       "navBarFontColor": "#fbf4ee",
+      "themeJSONFile": "at-md-chocolate-russet.json",
       "link": "AT-MD-Chocolate-Russet.jpg"
     },
    {
@@ -671,6 +674,7 @@
       "style": "Material Design",
       "navBarBGColor": "#006400",
       "navBarFontColor": "#ebffeb",
+      "themeJSONFile": "at-md-darkgreen-darkolivegreen.json",
       "link": "AT-MD-Darkgreen-Darkolivegreen.jpg"
     },
       {
@@ -681,6 +685,7 @@
       "version": 4.1,
       "style": "Material Design",
       "navBarBGColor": "#8b008b",
+      "themeJSONFile": "at-md-darkmagenta-darkorchid.json",
       "navBarFontColor": "#fffaff",
       "link": "AT-MD-Darkmagenta-Darkorchid.jpg"
     },
@@ -693,6 +698,7 @@
       "style": "Material Design",
       "navBarBGColor": "#b22222",
       "navBarFontColor": "#fceeee",
+      "themeJSONFile": "at-md-firebrick-crimson.json",
       "link": "AT-MD-Firebrick-Crimson.jpg"
     },
      {
@@ -704,6 +710,7 @@
       "style": "Material Design",
       "navBarBGColor": "#ffa000",
       "navBarFontColor": "#241700",
+      "themeJSONFile": "at-md-gold-amber.json",
       "link": "AT-MD-Gold-Amber.jpg"
     },
    {
@@ -715,6 +722,7 @@
       "style": "Material Design",
       "navBarBGColor": "#6f2da8",
       "navBarFontColor": "#faf7fd",
+      "themeJSONFile": "at-md-grape-violet.json",
       "link": "AT-MD-Grape-Violet.jpg"
     },
    {
@@ -726,6 +734,7 @@
       "style": "Material Design",
       "navBarBGColor": "#0000cd",
       "navBarFontColor": "#f5f5ff",
+      "themeJSONFile": "at-md-mediumblue-deepskyblue.json",
       "link": "AT-MD-Mediumblue-Deepskyblue.jpg"
     },
     {
@@ -737,6 +746,7 @@
       "style": "Material Design",
       "navBarBGColor": "#e0162b",
       "navBarFontColor": "#fffafb",
+      "themeJSONFile": "at-md-z-flag-germany.json",
       "link": "AT-MD-Z-Flag-Germany.jpg"
     },
      {
@@ -748,6 +758,8 @@
       "style": "Material Design",
       "navBarBGColor": "#ff8000",
       "navBarFontColor": "#241200",
+      "themeJSONFile": "at-md-z-flag-india.json",
+
       "link": "AT-MD-Z-Flag-India.jpg"
     },
       {
@@ -759,6 +771,7 @@
       "style": "Material Design",
       "navBarBGColor": "#e0162b",
       "navBarFontColor": "#fffafb",
+      "themeJSONFile": "at-md-z-flag-usa.json",
       "link": "AT-MD-Z-Flag-USA.jpg"
     },
     {
@@ -770,6 +783,7 @@
       "style": "Material Design",
       "navBarBGColor": "#ffffff",
       "navBarFontColor": "#121212",
+      "themeJSONFile": "at-md-z-flag-japan.json",
       "link": "AT-MD-Z-Flag-Japan.jpg"
     }
    
