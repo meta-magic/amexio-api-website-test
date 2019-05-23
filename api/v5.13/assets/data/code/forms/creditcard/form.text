@@ -1,0 +1,11 @@
+import { AmexioCreditCardModel } from 'amexio-ng-extensions';
+
+export class CreditCardDemo{
+
+creditcard: AmexioCreditCardModel;
+
+constructor(){
+    this.creditcard = new AmexioCreditCardModel();
+    }
+}
+

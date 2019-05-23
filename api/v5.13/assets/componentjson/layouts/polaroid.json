@@ -1,0 +1,68 @@
+{
+    "title": "Polaroid-Card",
+    "description": "A Simple Card which renders card based on title, body and actions user has configured.",
+    "apiRefMetadata": [
+      {
+        "gridTitle": "Properties",
+        "columnDefinition": [
+          {
+            "dataindex": "name",
+            "text": "Name",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "version",
+            "text": "Version",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "type",
+            "text": "Type",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "default",
+            "text": "Default",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "description",
+            "text": "Description",
+            "width": 60,
+            "hidden": false,
+            "datatype": "string"
+          }
+        ],
+        "gridData": [
+          {
+            "name": "polaroid-type",
+            "description": "It provides orientation to the card,creative-card.",
+            "version": "5.12 onwards",
+            "type": "string",
+            "default": ""
+          }
+            
+        ]
+      }
+    ],
+    "isAccessibility": false,
+    "sourceMetadata": {
+      "htmlUrl": "layout/polaroidcard/polaroid.html",
+      "tsUrl": "layout/polaroidcard/polaroid.text",
+      "datasourceUrl": ""
+    },
+  
+
+    "liveMetadata": {
+      "disabled": true,
+      "stackblitzUrl": ""
+    }
+  }
