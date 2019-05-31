@@ -1,0 +1,11 @@
+import {Component, OnInit} from '@angular/core';
+
+@Component({
+  selector : 'label-demo',
+  templateUrl : 'label.demo.html'
+})
+export class LabelDemo {
+constructor() {
+}
+}
+ 
