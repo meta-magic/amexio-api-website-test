@@ -1,0 +1,12 @@
+{
+    "name": "Amexio Toolbar",
+    "description": "Toolbar",
+    "selector": "<amexio-toolbar>",
+   
+    "events": [
+      {
+        "name": "onClick",
+        "description": "Event is fired on toolbar component"
+      }
+    ]
+  }

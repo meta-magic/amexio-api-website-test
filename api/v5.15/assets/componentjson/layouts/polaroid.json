@@ -1,0 +1,80 @@
+{
+    "title": "Polaroid-Card",
+    "description": "A Simple Card which renders card based on title, body and actions user has configured.",
+    "componentDescription": "Amexio Creative Card can be used to display Customer Products with beautiful layouts and highlight product features. The examples in this section show the power of Creative Cards. The Creative Card Container has 3 sections as follows  1. Header 2. Body 3. Action",
+    "compFeaturesTitle": "Key-Features",
+    "keyFeatures": [
+        "  Layout Structure (Header, Body, Action)",
+        "  Add Components to Card Container, Header, and Body",
+        "  Add Actionable Buttons to Card Action Panel ",
+        "  Supports Background Images",
+        "  Supports Transparency for Header and Action Panel",
+        "  Attach a Badge to the Card ",
+        " Keyboard Navigation enabled",
+        " Component Life Cycle Events (Initiated, Ready, Destroyed)"
+    ],
+    "apiRefMetadata": [
+      {
+        "gridTitle": "Properties",
+        "columnDefinition": [
+          {
+            "dataindex": "name",
+            "text": "Name",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "version",
+            "text": "Version",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "type",
+            "text": "Type",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "default",
+            "text": "Default",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "description",
+            "text": "Description",
+            "width": 60,
+            "hidden": false,
+            "datatype": "string"
+          }
+        ],
+        "gridData": [
+          {
+            "name": "polaroid-type",
+            "description": "It provides orientation to the card,creative-card.",
+            "version": "5.12 onwards",
+            "type": "string",
+            "default": ""
+          }
+            
+        ]
+      }
+    ],
+    "isAccessibility": false,
+    "sourceMetadata": {
+      "htmlUrl": "layout/polaroidcard/polaroid.html",
+      "tsUrl": "layout/polaroidcard/polaroid.text",
+      "datasourceUrl": ""
+    },
+  
+
+    "liveMetadata": {
+      "disabled": false,
+      "stackblitzUrl": "https://stackblitz.com/edit/amexio-polarid-card?embed=1&file=src/app/CE/polarid/polarid.component.html&view=editor"
+    }
+  }
