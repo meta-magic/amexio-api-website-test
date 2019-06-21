@@ -1604,10 +1604,10 @@ MIT
 @angular/core
 MIT
 
-ngx-cookie-service
+@angular/forms
 MIT
 
-@angular/forms
+ngx-cookie-service
 MIT
 
 core-js
