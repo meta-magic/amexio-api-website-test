@@ -1,0 +1,10 @@
+<!--Taginput with http-url-->
+<amexio-tag-input [data-reader]="'data'"
+                  [http-url]="'assets/data/componentdata/country.json'"
+                  [http-method]="'get'"
+                  [key]="'countryName'"
+                  [display-field]="'countryName'"
+                  [value-field]="'countryName'"
+                  [field-label]="'Country Name'"
+                  (onChange)="onRecordSelect($event)">
+</amexio-tag-input>
