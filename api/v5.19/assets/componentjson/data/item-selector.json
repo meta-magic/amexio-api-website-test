@@ -1,0 +1,198 @@
+{
+  "title": "Amexio Item-selector",
+  "description": "",
+  "apiRefMetadata": [
+    {
+      "gridTitle": "Properties <amexio-item-selector>",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "version",
+          "text": "Version",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "type",
+          "text": "Type",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "default",
+          "text": "Default",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false,
+          "datatype": "string"
+        }
+      ],
+      "gridData": [
+        {
+          "name": "height",
+          "type": "string",
+          "default": "",
+          "description": "Height of item selector"
+        },
+        {
+          "name": "http-url",
+          "type": "string",
+          "default": "",
+          "description": "REST url for fetching datasource."
+        },
+        {
+          "name": "http-method",
+          "type": "string",
+          "default": "",
+          "description": "Type of HTTP call, POST,GET."
+        },
+        {
+          "name": "enable-drag",
+          "version": "5.2 onwards",
+          "type": "boolean",
+          "default": "false",
+          "description": "Nodes can be dragged."
+        },
+        {
+          "name": "enable-drop",
+          "version": "5.2 onwards",
+          "type": "boolean",
+          "default": "false",
+          "description": "Any node can be dropped in the item selector structure."
+        },
+        {
+          "name": "across-itemselector",
+          "version": "5.2 onwards",
+          "type": "boolean",
+          "default": "false",
+          "description": "If across-itemselector is true then only the data transfer from itemselector to external panel"
+        },
+        {
+          "name": "display-field",
+          "type": "string",
+          "default": "",
+          "description": "Name of key inside response data to display on ui."
+        },
+        {
+          "name": "value-field",
+          "type": "string",
+          "default": "",
+          "description": "Name of key inside response data.use to send to backend"
+        },
+        {
+          "name": "data-reader",
+          "type": "string",
+          "default": "",
+          "description": "Key in JSON datasource for records"
+        },
+        {
+          "name": "data",
+          "type": "any",
+          "default": "",
+          "description": "Local data for item selectors."
+        }
+      ]
+    },
+      {
+        "gridTitle": "Events",
+        "columnDefinition": [
+          {
+            "dataindex": "name",
+            "text": "Name",
+            "width": 15,
+            "hidden": false
+          },
+          {
+            "dataindex": "description",
+            "text": "Description",
+            "width": 60,
+            "hidden": false
+          }
+        ],
+        "gridData": [
+          {
+      "name": "selectedRecords",
+      "description":"Get selected value Object."
+    },{
+      "name": "availableRecords",
+      "description":"Get available values objects.."
+    },
+    {
+      "name": "onDrag",
+      "description":"Emits node data when node is dragged."
+    }
+        ]
+      }
+  ],
+  "sourceMetadata": {
+    "htmlUrl": "",
+    "tsUrl": "",
+    "datasourceUrl": "assets/data/componentdata/selectordata.json"
+  },
+  "liveMetadata": {
+    "disabled": false,
+    "stackblitzUrl": ""
+  },
+  "apiaccessibledata":[
+    {
+      "gridTitle": "Properties  <amexio-item-selector>",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Key",
+          "width": 30
+          
+        },
+        {
+          "dataindex": "description",
+          "text": "Function",
+          "width": 70
+       
+        }
+      ],
+      "gridData": [
+        {
+          "name": "Right Arrow",
+          "description": "On right click of item selector elements get selected and moves to next item selector panel."
+        },{
+          "name": "Left Arrow",
+          "description": "On left click of item selector elements get selected and moves to pervious item selector panel."
+        },
+        {
+          "name": "Up Arrow",
+          "description": "On Up Arrow click navigates from current to previous item."
+        },
+        {
+          "name": "Down Arrow",
+          "description": "On Down Arrow click navigates from current to next item."
+        },
+        {
+          "name": "Enter",
+          "description": "On enter click elements get selected inside item selector."
+        },
+        {
+          "name": "Home",
+          "description": "On click of Home will move element to first element."
+        },
+        {
+          "name": "End",
+          "description": "On click of End will move element to last element."
+        }
+      ]
+    }
+  ]
+}

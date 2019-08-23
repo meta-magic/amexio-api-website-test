@@ -1,0 +1,165 @@
+{
+    "title": "Input Mask",
+    "description": "The input mask option is used to prompt users for data input using a mask pattern. Provided input field should have pattern input.",
+    "apiRefMetadata": [
+      {
+        "gridTitle": "Properties <amexio-text-input>/<amexio-number-input>",
+        "columnDefinition": [
+          {
+            "dataindex": "name",
+            "text": "Name",
+            "width": 20,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "version",
+            "text": "Version",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "type",
+            "text": "Type",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "default",
+            "text": "Default",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "description",
+            "text": "Description",
+            "width": 40,
+            "hidden": false,
+            "datatype": "string"
+          }
+        ],
+        "gridData": [
+          {
+            "name": "amexio-mask-pattern",
+            "type": "string",
+            "default": "",
+            "version": "v5.14",
+            "description": "Provides mask pattern for input field."
+          },{
+            "name": "pattern",
+            "type": "string",
+            "default": "",
+            "version": "v4.0",
+            "description": "Accept RegEx patterns for text fields.example pattern=[a-z0-9]"
+          }
+
+        ]
+      },
+      
+      {
+        "gridTitle": "Demo Patterns",
+        "columnDefinition": [
+          {
+            "dataindex": "regex",
+            "text": "Regex",
+            "width": 30,
+            "hidden": false
+          },
+          {
+            "dataindex": "maskpattern",
+            "text": "Mask pattern",
+            "width":20 ,
+            "hidden": false
+          },
+          {
+            "dataindex": "example",
+            "text": "Example",
+            "width":50 ,
+            "hidden": false
+          }
+        ],
+        "gridData": [
+          {
+            "regex": "\\d{6}",
+            "maskpattern":"XXXXXX",
+            "example":"411028, 420009"
+          },
+          {
+            "regex": "\\d{3}\\s\\d{3}",
+            "maskpattern":"XXX XXX",
+            "example":"456 241, 110 007"
+          },
+          {
+            "regex": "\\(\\d{3}\\)\\s\\d{3}-\\d{4}",
+            "maskpattern":"(XXX) XXX-XXXX",
+            "example":"(814) 221-4562, (212) 851-4512"
+          },
+          {
+            "regex": "\\d{2}\\:\\d{2}:\\d{4}",
+            "maskpattern":"XX:XX:XXXX",
+            "example":"11:05:1992, 02:12:1998"
+          },
+          {
+            "regex": "\\d{2}\\:\\d{2}:\\d{2}",
+            "maskpattern":"XX:XX:XX",
+            "example":"06:02:30, 05:14:50"
+          },
+          {
+            "regex": "\\d{4}\\s\\d{4}\\s\\d{4}\\s\\d{4}",
+            "maskpattern":"XXXX XXXX XXXX XXXX",
+            "example":"4511 8728 6524 9022."
+          },
+          {
+            "regex": "\\d{3}\\s\\d{3}-\\d{2}-\\d{4}",
+            "maskpattern":"XXX XXX-XX-XXXX",
+            "example":"145 845-22-9623"
+          },
+          {
+            "regex": "\\d{4}.\\d{2}",
+            "maskpattern":"XXXX.XX",
+            "example":"5000.00, 8510.00"
+          },
+          {
+            "regex": "(1[0-2]|0[1-9])\/\\d\\d",
+            "maskpattern":"DD/MM/YYYY",
+            "example":"22/11/1992, 04/03/2019"
+          }
+        ]
+      }
+    ],
+    "sourceMetadata": {
+      "htmlUrl": "directive/input-mask/form.html",
+      "tsUrl": "directive/input-mask/form.text",
+      "datasourceUrl": ""
+    },
+    "liveMetadata": {
+      "disabled": true,
+      "stackblitzUrl": ""
+    },
+    "apiaccessibledata": [
+      {
+          "gridTitle": "Properties <amexio-text-input>",
+          "columnDefinition": [
+              {
+                  "dataindex": "name",
+                  "text": "Key",
+                  "width": 30
+              },
+              {
+                  "dataindex": "description",
+                  "text": "Function",
+                  "width": 70
+              }
+          ],
+          "gridData": [
+            {
+              "name": "Tab",
+              "description": "Navigates over the fields"
+          }
+        ]
+      }
+  ]
+  }
