@@ -1,0 +1,62 @@
+<!-- Virtual scroller With multi column -->
+<amexio-virtual-scroller *ngIf="localData2d" [item-size]="150" [data]="localData2d.items">
+    <ng-template #amexioBodyTmpl let-row="row">
+        <amexio-row>
+            <amexio-column *ngFor="let item of row.data" size="3" [fit]="true">
+                <amexio-card-ce [align]="'center'">
+                    <amexio-body-ce>
+                        <amexio-image [path]="item.imagepath" [overlay-effect]="'slide-left'" [overlay-text]="item.title">
+                        </amexio-image>
+                    </amexio-body-ce>
+                </amexio-card-ce>
+            </amexio-column>
+        </amexio-row>
+    </ng-template>
+</amexio-virtual-scroller>
+
+<!-- Virtual scroller with carousel -->
+
+<amexio-carousel style="display: block; margin: 0px -20px;" [data]="localData" shuffle-interval="1000">
+    <ng-template let-gallery amexioTemplate="item">
+        <amexio-image [height]="'300px'" [path]="gallery.imagepath"></amexio-image>
+    </ng-template>
+</amexio-carousel>
+<amexio-virtual-scroller *ngIf="localData2d" [item-size]="150" [data]="localData2d.items">
+    <ng-template #amexioBodyTmpl let-row="row">
+        <amexio-row>
+            <amexio-column *ngFor="let item of row.data" size="3" [fit]="true">
+                <amexio-card-ce [align]="'center'">
+                    <amexio-body-ce>
+                        <amexio-image [path]="item.imagepath" [overlay-effect]="'slide-left'" [overlay-text]="item.title">
+                        </amexio-image>
+                    </amexio-body-ce>
+                </amexio-card-ce>
+            </amexio-column>
+        </amexio-row>
+    </ng-template>
+</amexio-virtual-scroller>
+
+<!-- Simple Virtual Scroller -->
+<amexio-virtual-scroller *ngIf="localData" [item-size]="150" [data]="localData.items">
+    <ng-template #amexioBodyTmpl let-row="row">
+        <amexio-layout-columns [orientation]="'horizontal'">
+            <amexio-layout-item>
+                <amexio-image [path]="row.imagepath " [height]=" '160px' ">
+                </amexio-image>
+            </amexio-layout-item>
+            <amexio-layout-item>
+                <amexio-label [size]="'medium-bold' ">
+                    {{row.title}}
+                </amexio-label>
+                <br />
+                <amexio-label size="small ">
+                    {{row.description}}
+                </amexio-label>
+                <br />
+                <amexio-label size="small-bold ">
+                    {{row.duration}} secs
+                </amexio-label>
+            </amexio-layout-item>
+        </amexio-layout-columns>
+    </ng-template>
+</amexio-virtual-scroller>

@@ -1,0 +1,93 @@
+{
+  "title": "Amexio Rich Text Area",
+  "description": "A simple configurable of Rich Editable Text Area.",
+  "apiRefMetadata": [
+    {
+      "gridTitle": "Properties <amexio-rich-textarea>",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "type",
+          "text": "Type",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "default",
+          "text": "Default",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false,
+          "datatype": "string"
+        }
+      ],
+      "gridData": [
+        {
+          "name": "toolbar-position",
+          "type": "string",
+          "default": "top",
+          "description": "It display position top or bottom."
+        },
+        
+        {
+          "name": "enable-source-code",
+          "type": "boolean",
+          "default": "true",
+          "description": "If true source code is visible in tab."
+        },
+        {
+          "name": "height",
+          "type": "number",
+          "default": "",
+          "description": "Height to the tab formRich only if enable source code falg is true."
+        }
+      ]
+    },
+    {
+      "gridTitle": "Events",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false
+        },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false
+        }
+      ],
+      "gridData": [
+        {
+          "name": "onCodeClick",
+          "description": "Emits DOM HTML source code on click on button </>."
+        }
+      ]
+    }
+  ],
+  "isAccessibility": false,
+  "sourceMetadata": {
+    "htmlUrl": "enterprise/richEditable/ee.html",
+    "tsUrl": "enterprise/richEditable/ee.text",
+    "datasourceUrl": ""
+  },
+  "liveMetadata": {
+    "disabled": true,
+    "stackblitzUrl": "https://stackblitz.com/edit/amexio-v4-youtube-player?embed=1&file=app/enterprise/youtube-player/youtube.demo.html&view=editor"
+  }
+}

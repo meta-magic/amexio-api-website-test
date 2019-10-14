@@ -1,0 +1,8 @@
+export class PaginatorDemo {
+  constructor(){
+  }
+  //paginator onPageChange event
+  loadPageData(pageInfo:any){
+    //add Some Operation
+  }
+}
