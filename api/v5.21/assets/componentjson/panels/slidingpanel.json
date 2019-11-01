@@ -1,0 +1,153 @@
+{
+    "title": "Amexio Sliding Panel",
+    "description": "Sliding panel provides an easy way to organize big forms by grouping the fields in panel with sliding animation effect.",
+    "apiRefMetadata": [
+      {
+        "gridTitle": "Properties <amexio-sliding-panel>",
+        "columnDefinition": [
+          {
+            "dataindex": "name",
+            "text": "Name",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "version",
+            "text": "Version",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "type",
+            "text": "Type",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "default",
+            "text": "Default",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "description",
+            "text": "Description",
+            "width": 60,
+            "hidden": false,
+            "datatype": "string"
+          }
+        ],
+        "gridData": [
+          {
+            "name": "header",
+            "version": "5.12 onwards",
+            "type": "string",
+            "default": "none",
+            "description": "Sets sliding panel header"
+          }
+             
+        ]
+      },
+      {
+        "gridTitle": "Properties <amexio-panel-item>",
+        "columnDefinition": [
+          {
+            "dataindex": "name",
+            "text": "Name",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "version",
+            "text": "Version",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "type",
+            "text": "Type",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "default",
+            "text": "Default",
+            "width": 15,
+            "hidden": false,
+            "datatype": "string"
+          },
+          {
+            "dataindex": "description",
+            "text": "Description",
+            "width": 60,
+            "hidden": false,
+            "datatype": "string"
+          }
+        ],
+        "gridData": [
+          {
+            "name": "icon",
+            "type": "string",
+            "default": "",
+            "description": "Sets icon to panel item",
+            "version": "5.12 onwards"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "default": "",
+            "description": "Sets title to panel item",
+            "version": "5.12 onwards"
+          }
+        ]
+      },
+      {
+      "gridTitle": "Events",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false
+        },
+        {
+            "dataindex": "version",
+            "text": "Version",
+            "width": 15,
+            "hidden": false
+          },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false
+        }
+      ],
+      "gridData": [
+        {
+          "name": "onPanelItemClick",
+          "description": "Fires on pane item click."
+        }
+        
+      ]
+    }
+    ],
+  "isAccessibility": false,
+
+    "sourceMetadata": {
+      "htmlUrl": "pane/slidingpanel/form.html",
+      "tsUrl": "pane/slidingpanel/form.text",
+      "datasourceUrl": ""
+    },
+    "liveMetadata": {
+      "disabled": false,
+      "stackblitzUrl": "https://stackblitz.com/edit/amexio-slidingpanel?embed=1&file=src/app/slidingpanel/slidingpanel.component.html&view=editor"
+    }
+  }

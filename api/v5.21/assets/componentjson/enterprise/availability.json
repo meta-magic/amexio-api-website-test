@@ -1,0 +1,133 @@
+{
+  "title": "Availability",
+  "description": "The Amexio availability component can be used to show and modify availability of resources in accordance to specific time.",
+  "apiRefMetadata": [
+    {
+      "gridTitle": "Properties <amexio-availability>",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "version",
+          "text": "Version",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "type",
+          "text": "Type",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "default",
+          "text": "Default",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false,
+          "datatype": "string"
+        }
+      ],
+      "gridData": [
+        {
+            "name": "start-date",
+            "version": "5.19 Onwards",
+            "description": "Sets start date in availability component.",
+            "type": "string",
+            "default": " "
+        },
+        {
+            "name": "end-date",
+            "version": "5.19 Onwards",
+            "description": "Sets end date in availability component.",
+            "type": "string",
+            "default": " "
+        },
+        {
+            "name": "start-time",
+            "version": "5.19 Onwards",
+            "description": "Sets start time in availability component in 24 hours pattern.",
+            "type": "number",
+            "default": " "
+        },
+        {
+            "name": "end-date",
+            "version": "5.19 Onwards",
+            "description": "Sets end date in availability component.",
+            "type": "number",
+            "default": " "
+        },
+        {
+            "name": "label-data",
+            "version": "5.19 Onwards",
+            "description": "Sets data to availability component.",
+            "type": "any[]",
+            "default": " "
+        },
+        {
+            "name": "time-zone-data",
+            "version": "5.19 Onwards",
+            "description": "Sets time zone data to dropdown in availability component.",
+            "type": "any[]",
+            "default": " "
+        }
+      ]
+    },
+    {
+      "gridTitle": "Events",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "version",
+          "text": "Version",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false,
+          "datatype": "string"
+        }
+      ],
+      "gridData": [
+        {
+            "name": "onClick()",
+            "version": "5.19 Onwards",
+            "description": "It will fired on click of time block cells"
+        }
+      ]
+    }
+  ],
+  "isAccessibility": false,
+  "sourceMetadata": {
+    "htmlUrl": "enterprise/availability/ee.html",
+    "tsUrl": "enterprise/availability/ee.text",
+    "datasourceUrl": ""
+  },
+  "liveMetadata": {
+    "disabled": true,
+    "stackblitzUrl": "https://stackblitz.com/edit/amexio-v4-appointment1?embed=1&file=app/enterprise/appointment/appointment.demo.html&view=editor"
+  }
+}
