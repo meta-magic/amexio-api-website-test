@@ -1,0 +1,130 @@
+{
+  "title": "",
+  "description": "",
+  "apiRefMetadata": [
+    {
+      "gridTitle": "Properties <amexio-tree-tab>",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "version",
+          "text": "Version",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "type",
+          "text": "Type",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "default",
+          "text": "Default",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false,
+          "datatype": "string"
+        }
+      ],
+      "gridData": [
+        {
+          "name": "data",
+          "version": "5.13 Onwards",
+          "description": "Provides data for side nav",
+          "type": "any",
+          "default": ""
+        },
+        {
+          "name": "data-reader",
+          "description": "Key in JSON Datasource for records.",
+          "version": "5.13 Onwards",
+          "type": "string",
+          "default": ""
+        },
+        {
+          "name": "width",
+          "description": "Provides width for the side Nav",
+          "version": "5.13 Onwards",
+          "type": "string",
+          "default": "200px"
+        },
+        {
+          "name": "http-url",
+          "version": "5.13 onwards",
+          "type": "string",
+          "default": "",
+          "description": "REST url for fetching data."
+        },
+        {
+          "name": "http-method",
+          "version": "5.13 onwards",
+          "type": "string",
+          "default": "",
+          "description": "Type of HTTP call, POST,GET etc."
+        }
+      ]
+    },
+    {
+      "gridTitle": "Events",
+      "columnDefinition": [
+        {
+          "dataindex": "name",
+          "text": "Name",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "version",
+          "text": "Version",
+          "width": 15,
+          "hidden": false,
+          "datatype": "string"
+        },
+        {
+          "dataindex": "description",
+          "text": "Description",
+          "width": 60,
+          "hidden": false,
+          "datatype": "string"
+        }
+      ],
+      "gridData": [
+        {
+          "name": "onNodeClick()",
+          "version": "5.13 Onwards",
+          "description": "It will fire on selection of single node."
+        },
+        {
+          "name": "onLoad()",
+          "version": "5.13 Onwards",
+          "description": "It will fire on page load."
+        }
+      ]
+    }
+  ],
+  "sourceMetadata": {
+    "htmlUrl": "enterprise/tree-tab/ee.html",
+    "tsUrl": "enterprise/tree-tab/ee.text",
+    "datasourceUrl": ""
+  },
+  "liveMetadata": {
+    "disabled": true
+  },
+  "isAccessibility": false
+}

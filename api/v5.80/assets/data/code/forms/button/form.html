@@ -1,0 +1,158 @@
+<!--Button Types-->
+
+<amexio-button [label]="'Backgrund Color'" 
+               [type]="'theme-backgroundcolor'" 
+               [tooltip]="'Background Button'">
+</amexio-button>
+<amexio-button [label]="'Theme Color'" 
+               [type]="'theme-color'" 
+               [tooltip]="'Primary Button'">
+</amexio-button>
+<amexio-button [label]="'Green'" 
+               [type]="'green'" 
+               [tooltip]="'Green Button'">
+</amexio-button>
+<amexio-button [label]="'Red'" 
+               [type]="'red'" 
+               [tooltip]="'Red Button'">
+</amexio-button>
+<amexio-button [label]="'custom color'" 
+               [color]="'#674d3c'" 
+               [bg-color]="'#a2836e'" 
+               [tooltip]="'custom color Button'">
+</amexio-button>
+<amexio-button [label]="'Transparent'" 
+               [type]="'transparent'" 
+               [tooltip]="'Transparent Button'">
+</amexio-button>
+
+<!--Button States-->
+<amexio-button [label]="'Disabled'" 
+               [type]="'green'" 
+               [tooltip]="'Disabled'" 
+               [disabled]="'true'">
+</amexio-button>
+<amexio-button [label]="'Enabled'" 
+               [type]="'green'" 
+               [tooltip]="'Enable'">
+</amexio-button>
+
+<!--Button with Icons-->
+<amexio-button [label]="'Next'" 
+               [type]="'theme-color'" 
+               [tooltip]="'Next'" 
+               [icon]="'fa fa-chevron-right'">
+</amexio-button>
+
+<amexio-button [label]="'Delete'" 
+               [type]="'red'" 
+               [tooltip]="'delete'" 
+               [icon]="'fa fa-trash'">
+</amexio-button>
+
+
+<amexio-button [label]="'Download'" 
+               [type]="'green'" 
+               [tooltip]="'Save'" 
+               [icon]="'fa fa-save'">
+</amexio-button>
+
+<!-- icon on right side to the label of button -->
+<amexio-button  
+                [label]="'Google'"
+                [type]="'red'" 
+                [tooltip]="'Google'" 
+                [right-icon]="'fa fa-close'" 
+                [icon]="'fa fa-google'">
+</amexio-button>
+             
+
+<!--Button Sizes-->
+<amexio-button [label]="'Large Button'" 
+               [type]="'theme-color'" 
+               [tooltip]="'large'" 
+               [size]="'large'">
+</amexio-button>
+<amexio-button [label]="'Default Button'" 
+               [type]="'theme-color'" 
+               [tooltip]="'default'">
+</amexio-button>
+<amexio-button [label]="'Small Button'" 
+               [type]="'theme-color'" 
+               [tooltip]="'small'" 
+               [size]="'small'">
+</amexio-button>
+
+<!-- Block Button -->
+<amexio-button [label]="'Block Button(Theme Color)'" 
+               [type]="'theme-color'"  
+               [tooltip]="'large'" 
+               [block]="true">
+</amexio-button>
+<amexio-button [label]="'Block Button(Green)'" 
+               [type]="'green'" 
+               [tooltip]="'green'" 
+               [block]="true">
+</amexio-button>
+
+<!-- Button With Badges-->
+<amexio-button [label]="'Background Color'" 
+               [badge]="10" 
+               [type]="'theme-backgroundcolor'" 
+               [tooltip]="'Secondary Button'">
+</amexio-button>
+<amexio-button [label]="'Theme Color'" 
+               [badge]="11" 
+               [type]="'theme-color'" 
+               [tooltip]="'Primary Button'">
+</amexio-button>
+<amexio-button [label]="'Green'" 
+               [badge]="12" 
+               [type]="'green'" 
+               [tooltip]="'Success Button'">
+</amexio-button>
+<amexio-button [label]="'Red'" 
+               [badge]="13" 
+               [type]="'red'" 
+               [tooltip]="'Danger Button'">
+</amexio-button>
+<!-- Button With custom colors-->
+    <amexio-button [label]="'Next'"  
+                   [color]="'#622569'" 
+                   [bg-color]="'#96ceb4'"  
+                   [tooltip]="'Next'">
+   </amexio-button>
+    <amexio-button [label]="'Download'" 
+                   [bg-color]="'#f4a688'" 
+                   [color]="'brown'" 
+                   [tooltip]="'Download'">
+    </amexio-button>
+    <amexio-button [label]="'Delete'" 
+                   [bg-color]="'#b7d7e8'" 
+                   [color]="'blue'" 
+                   [tooltip]="'delete'">
+    </amexio-button>
+
+   <!-- Buttons with Round Edge -->
+   <amexio-button amexioThemeStyle [theme-style]="'round-edge'" 
+                  [label]="'Next'" 
+                  [type]="'theme-color'" 
+                  [tooltip]="'Next'"
+                  [icon]="'fa fa-chevron-right'">
+    </amexio-button>
+
+    <amexio-button amexioThemeStyle [theme-style]="'round-edge'" 
+                   [label]="'Download'" 
+                   [type]="'green'" 
+                   [tooltip]="'Download'"
+                   [icon]="'fa fa-save'">
+    </amexio-button>
+
+    <amexio-button  amexioThemeStyle [theme-style]="'round-edge'" 
+                    [label]="'Delete'" 
+                    [type]="'red'" 
+                    [tooltip]="'delete'" 
+                    [icon]="'fa fa-trash'">
+    </amexio-button>
+
+

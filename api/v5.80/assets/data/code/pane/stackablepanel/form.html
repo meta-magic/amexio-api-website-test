@@ -1,0 +1,36 @@
+<amexio-stackable-panel [panel-name]="'Posts'">
+
+    <amexio-stackable-panel [panel-name]="'Posts'">
+        <amexio-stackablepanel-item *ngFor="let item of stackableData.data" [title]="item.title">
+            <amexio-row>
+                <amexio-column size="2" fit="false" style="text-align: center">
+                    <amexio-image [height]="'99.75px'" [width]="'99.75px'" [c-class]="'image-round'"
+                        [path]="item.imagePath">
+                    </amexio-image>
+                </amexio-column>
+                <amexio-column size="10" fit="false">
+                    <span style="float: right">
+                        <amexio-chips [display-field]="'label'">
+                            <amexio-chip [icon]="item.icon" [label]="item.label" [color]="item.color"
+                                [badge]="item.badge" [closable]="false" [font-color]="item.font-color">
+                            </amexio-chip>
+                        </amexio-chips>
+                    </span>
+                    <span>
+                        <amexio-label size="small-bold">
+                            {{item.personName}}
+                        </amexio-label><br>
+                        <amexio-label font-color="#FF5733" size="small">
+                            {{item.dateAndTime}}
+                        </amexio-label>
+                    </span>
+                    <div style="padding-top:10px;">
+                        <amexio-label size="small" [font-color]="'black'">
+                            {{item.description}}
+                        </amexio-label>
+                    </div>
+                </amexio-column>
+            </amexio-row>
+        </amexio-stackablepanel-item>
+    </amexio-stackable-panel>
+</amexio-stackable-panel>
