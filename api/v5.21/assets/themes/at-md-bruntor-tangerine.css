@@ -380,8 +380,8 @@ image using the content attribute.
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-red {
-  background-color: #dc143c;
-  color: #fffafb; }
+  background-color: #dc143c !important;
+  color: #fffafb !important; }
 
 /** Amexio Colors --- 
    Lime: #00ff00 rgb(0,255,0,0.0);
@@ -396,8 +396,8 @@ image using the content attribute.
    f0faf4: #f0faf4 rgb(240,250,244,0.0);
 */
 .amexio-green {
-  background-color: #2e8b57;
-  color: #f0faf4; }
+  background-color: #2e8b57 !important;
+  color: #f0faf4 !important; }
 
 /** Amexio Colors --- 
    Magenta: #ff00ff rgb(255,0,255,0.0);
@@ -460,8 +460,8 @@ image using the content attribute.
    241500: #241500 rgb(36,21,0,0.0);
 */
 .amexio-yellow {
-  background-color: #ff9900;
-  color: #241500; }
+  background-color: #ff9900 !important;
+  color: #241500 !important; }
 
 /** Amexio Colors --- 
    Black: #000000 rgb(0,0,0,0.0);
@@ -1830,8 +1830,8 @@ textarea:required {
 *****************************************************************************/
 /** notification - Visual CSS **/
 .notification {
-  background-color: var(--componentBGColor);
-  color: var(--componentFontColor); }
+  background-color: var(--componentHoverBGColor);
+  color: var(--componentHoverFontColor); }
 
 /** notification - Structure CSS **/
 .notification-content {
